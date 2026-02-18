@@ -3,10 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
+   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
+    "vercel-build": "pwd && ls -la && echo '--- SRC ---' && ls -la src || true && echo '--- TREE (top) ---' && ls -la && npm run build",
     "preview": "vite preview"
   },
   "dependencies": {
