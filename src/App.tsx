@@ -9,6 +9,11 @@ type Recipe = {
   instructions: string;
   notes?: string; // ✅ add this (optional)
 };
+sampleRecipes.forEach(recipe => {
+  if (recipe.category === "Soup") {
+    recipe.tags = recipe.tags.filter(tag => tag !== "Banquet");
+  }
+});
 
 
 const sampleRecipes: Recipe[] = [
@@ -648,7 +653,7 @@ Seasoning:
   id: 35,
   name: "Wheatberry Winter Beets",
   category: "Pantry",
-  tags: ["Contains Gluten", "Vegetarian", "Cold Hold", "Make Ahead", "Banquet"],
+  tags: ["Contains Gluten", "Vegetarian",],
   ingredients: `- 4 cups golden raisins
 - 1 cup white wine vinegar
 - 16 garlic cloves
@@ -669,31 +674,7 @@ Seasoning:
 6) Add olive oil to finish.
 7) Plate over pistachio butter.`
 },
-{
-  id: 35,
-  name: "Wheatberry Winter Beets",
-  category: "Pantry",
-  tags: ["Contains Gluten", "Vegetarian", "Cold Hold", "Make Ahead", "Banquet"],
-  ingredients: `- 4 cups golden raisins
-- 1 cup white wine vinegar
-- 16 garlic cloves
-- Cooked wheatberries
-- Roasted beets
-- Lemon juice
-- Chopped parsley
-- Chopped mint
-- Chili flakes
-- Kosher salt and black pepper
-- Olive oil
-- Pistachio butter (for plating)`,
-  instructions: `1) Combine golden raisins, white wine vinegar, and garlic; let sit 1 hour.
-2) Discard garlic cloves.
-3) Fold in cooked wheatberries and roasted beets.
-4) Add lemon juice, parsley, mint, and chili flakes.
-5) Season with salt and pepper.
-6) Add olive oil to finish.
-7) Plate over pistachio butter.`
-},
+
 {
   id: 36,
   name: "Cauliflower Bolognese (Banquet Batch)",
@@ -760,7 +741,7 @@ Seasoning:
   id: 39,
   name: "Beef Barbacoa & Black Bean Soup",
   category: "Soup",
-  tags: ["Beef", "Gluten Free", "Hot Hold", "Make Ahead", "Banquet"],
+  tags: ["Beef", "Gluten Free", "Hot Hold", "Make Ahead"],
   ingredients: `- 7.5 lb beef barbacoa, shredded (with juices)
 - 1 1/2 cups oil (olive or neutral)
 - 4 1/2 lb yellow onion, diced
@@ -791,7 +772,7 @@ Seasoning:
   id: 40,
   name: "Butternut Squash Soup (Banquet Batch – ~4.9 Gallons)",
   category: "Soup",
-  tags: ["Dairy", "Vegetarian", "Hot Hold", "Make Ahead", "Banquet"],
+  tags: ["Dairy", "Vegetarian", "Hot Hold", "Make Ahead"],
   ingredients: `- 13 large butternut squash (~40 lb raw / 30 lb usable flesh)
 - 2 1/2 lb yellow onion (6–7 small or 3 large), diced
 - 13 garlic cloves
@@ -826,7 +807,7 @@ Seasoning:
   id: 41,
   name: "Black Bean, Corn & Gochujang Spinach Stew",
   category: "Soup",
-  tags: ["Vegan", "Soy", "Sesame", "Gluten Optional", "Hot Hold", "Make Ahead", "Banquet"],
+  tags: ["Vegan", "Soy", "Sesame", "Gluten Optional", "Hot Hold", "Make Ahead",],
   ingredients: `- 1 cup sesame oil
 - 8 shallots, halved and thinly sliced
 - 16 garlic cloves, thinly sliced
@@ -855,7 +836,7 @@ Seasoning:
   id: 42,
   name: "Black Bean Soup (2 Gallons)",
   category: "Soup",
-  tags: ["Gluten Free", "Hot Hold", "Make Ahead", "Vegetarian Optional", "Banquet"],
+  tags: ["Gluten Free", "Hot Hold", "Make Ahead", "Vegetarian Optional",],
   ingredients: `- 4 lb dried black beans (or ~6 #10 cans, rinsed & drained)
 - 1/2 cup olive oil OR 1/2 lb bacon/ham (optional)
 - 2 1/2 lb onions, diced
@@ -889,7 +870,7 @@ Seasoning:
   id: 43,
   name: "Brazilian Moqueca (2 Gallons)",
   category: "Soup",
-  tags: ["Shellfish", "Fish", "Coconut", "Gluten Free", "Hot Hold", "Banquet"],
+  tags: ["Shellfish", "Fish", "Coconut", "Gluten Free"],
   ingredients: `SEAFOOD:
 - 2 lb scallops
 - 2 lb shrimp, peeled & deveined
@@ -930,7 +911,7 @@ STEW BASE:
   id: 44,
   name: "Carrot, Apple & Harissa Soup (2 Gallons)",
   category: "Soup",
-  tags: ["Vegan", "Gluten Free", "Hot Hold", "Cold Hold", "Make Ahead", "Banquet"],
+  tags: ["Vegan", "Gluten Free"],
   ingredients: `- 10 lb carrots, peeled and cut into 1/2-inch diagonal slices
 - 6–7 large Granny Smith apples, cored and cut into 1-inch wedges
 - 1/3 cup olive oil
@@ -953,7 +934,7 @@ STEW BASE:
   id: 45,
   name: "House Chili (Large Batch Production)",
   category: "Soup",
-  tags: ["Beef", "Pork", "Contains Gluten", "Hot Hold", "Banquet", "High Volume"],
+  tags: ["Beef", "Pork", "Contains Gluten", "Hot Hold"],
   ingredients: `MEAT:
 - 1 whole top round, medium grind
 - 2 pork butts, medium grind
@@ -1005,7 +986,7 @@ FINISH SEASONING:
   id: 46,
   name: "New England Clam Chowder (Large Batch)",
   category: "Soup",
-  tags: ["Shellfish", "Dairy", "Contains Gluten", "Pork", "Hot Hold", "Banquet", "High Volume"],
+  tags: ["Shellfish", "Dairy", "Contains Gluten", "Pork", "Hot Hold"],
   ingredients: `AROMATICS:
 - 1 full 200 pan diced onion
 - 1 full 200 pan diced celery
@@ -1042,7 +1023,7 @@ SEASONING:
   id: 47,
   name: "Corn & Black Bean Soup with Fresno Peppers (3 Gallons)",
   category: "Soup",
-  tags: ["Vegetarian Optional", "Gluten Free", "Hot Hold", "Make Ahead", "Banquet"],
+  tags: ["Vegetarian Optional", "Gluten Free", "Hot Hold", "Make Ahead",],
   ingredients: `- 1/2 cup neutral oil (canola, sunflower, etc.)
 - 6 medium onions, small dice (~3 lb)
 - 12 Fresno peppers, thinly sliced (seeded for less heat)
@@ -1071,7 +1052,7 @@ SEASONING:
   id: 48,
   name: "French Onion Soup (Large Batch)",
   category: "Soup",
-  tags: ["Beef", "Contains Gluten Optional", "Hot Hold", "Banquet", "High Volume"],
+  tags: ["Beef", "Contains Gluten Optional", "Hot Hold",],
   ingredients: `- 15 large onions, julienned
 - 1/2 gallon sherry
 - 2 gallons beef stock
@@ -1095,7 +1076,7 @@ SEASONING:
   id: 49,
   name: "Mulligatawny Soup (Anglo-Indian)",
   category: "Soup",
-  tags: ["Chicken", "Dairy", "Contains Gluten", "Coconut", "Hot Hold", "Banquet"],
+  tags: ["Chicken", "Dairy", "Contains Gluten", "Coconut", "Hot Hold"],
   ingredients: `- 3/4 lb butter (12 tbsp / 1 1/2 sticks)
 - 6 large onions, chopped (~3 lb)
 - 12 inches fresh ginger, finely chopped (~1 1/2 cups)
@@ -1166,7 +1147,7 @@ Farro & Stock
   id: 51,
   name: "Mushroom Barley Soup (2 Gallons)",
   category: "Soup",
-  tags: ["Contains Gluten", "Vegetarian Optional", "Dairy Optional", "Hot Hold", "Make Ahead", "Banquet"],
+  tags: ["Contains Gluten", "Vegetarian Optional", "Dairy Optional", "Hot Hold", "Make Ahead"],
   ingredients: `- 3 lb mushrooms (cremini, button, shiitake), sliced
 - 1/2 cup olive oil or butter (4 oz)
 - 2 lb onions, diced
@@ -1201,7 +1182,7 @@ Farro & Stock
   id: 52,
   name: "Roasted Tomato & Banana Pepper Soup (3 Gallons)",
   category: "Soup",
-  tags: ["Vegetarian Optional", "Dairy Optional", "Gluten Free", "Hot Hold", "Make Ahead", "Banquet"],
+  tags: ["Vegetarian Optional", "Dairy Optional", "Gluten Free", "Hot Hold", "Make Ahead"],
   ingredients: `- 1/2 cup olive oil (divided)
 - 8 lb ripe tomatoes (Roma or plum), halved
 - 3 lb fresh banana peppers, seeded and sliced
@@ -1234,7 +1215,7 @@ Farro & Stock
   id: 53,
   name: "Spiced Chickpea & Chorizo Soup (2 Gallons)",
   category: "Soup",
-  tags: ["Pork", "Gluten Free", "Hot Hold", "Make Ahead", "Banquet"],
+  tags: ["Pork", "Gluten Free", "Hot Hold", "Make Ahead",],
   ingredients: `- 3 lb Spanish chorizo, small dice
 - 1 cup olive oil (as needed)
 - 3 lb yellow onions, diced
@@ -1269,7 +1250,7 @@ Farro & Stock
   id: 54,
   name: "Spicy Ground Pork & Potato Soup (3 Gallons)",
   category: "Soup",
-  tags: ["Pork", "Gluten Free", "Hot Hold", "Make Ahead", "High Volume", "Banquet"],
+  tags: ["Pork", "Gluten Free", "Hot Hold", "Make Ahead"],
   ingredients: `- 10 lb ground pork
 - 1/2 cup olive oil (or rendered pork fat)
 - 4 large onions (~2 lb), diced
@@ -1303,7 +1284,7 @@ Portions: ~48 servings (8 oz) or ~60 servings (6 oz starter)`
   id: 55,
   name: "Stuffed Pepper Soup (2 Gallons)",
   category: "Soup",
-  tags: ["Beef", "Contains Gluten Optional", "Hot Hold", "Make Ahead", "Banquet", "High Volume"],
+  tags: ["Beef", "Contains Gluten Optional", "Hot Hold", "Make Ahead"],
   ingredients: `- 3 lb ground beef (80/20)
 - 1/4 cup olive oil (or rendered fat)
 - 2 cups onion, small dice
@@ -1342,7 +1323,7 @@ Rice will continue absorbing liquid during hold; add stock as needed when reheat
   id: 56,
   name: "Sweet Potato Bisque with Curry & Coconut (~2 Gallons)",
   category: "Soup",
-  tags: ["Vegan", "Gluten Free", "Hot Hold", "Make Ahead", "Banquet"],
+  tags: ["Vegan", "Gluten Free", "Hot Hold", "Make Ahead"],
   ingredients: `- 1/2 cup oil
 - 2 lb onion, diced
 - 6 cloves garlic, minced
@@ -1371,7 +1352,7 @@ Holds well; may thicken during hold — loosen with hot stock as needed.`
   id: 57,
   name: "Thai-Style Pumpkin Coconut Soup (4 Gallons)",
   category: "Soup",
-  tags: ["Coconut", "Gluten Free Optional", "Hot Hold", "Make Ahead", "Banquet", "Vegan Optional"],
+  tags: ["Coconut", "Gluten Free Optional", "Hot Hold", "Make Ahead", "Vegan Optional"],
   ingredients: `- 1 cup neutral oil
 - 2 qt diced yellow onions
 - 1/2 cup minced garlic
@@ -1409,7 +1390,7 @@ For vegan version, use vegetable stock and soy sauce instead of fish sauce.`
   id: 58,
   name: "Tomato Basil Soup (Scrap Utilization Batch)",
   category: "Soup",
-  tags: ["Dairy Optional", "Gluten Free Optional", "Hot Hold", "Make Ahead", "Banquet", "High Volume"],
+  tags: ["Dairy Optional", "Gluten Free Optional", "Hot Hold", "Make Ahead"],
   ingredients: `- 1 full 4–5 gallon bucket tomato scraps (ends & trim)
 - 2 gallons chicken stock
 - 2 onions, rough chopped
@@ -1440,7 +1421,7 @@ Add cream gradually — do not boil hard after cream addition.`
   id: 59,
   name: "Watermelon Gazpacho (4× Batch – 6–8 Quarts)",
   category: "Soup",
-  tags: ["Vegan", "Gluten Free", "Cold Hold", "Make Ahead", "Banquet", "Seasonal"],
+  tags: ["Vegan", "Gluten Free", "Cold Hold", "Make Ahead"],
   ingredients: `- 16 cups (1 gallon) diced watermelon
 - 4 cups cucumber, peeled and diced
 - 2 red bell peppers
@@ -1467,7 +1448,7 @@ Excellent as 4 oz passed shooter for banquets.`
   id: 60,
   name: "White Chicken Chili (Large Batch)",
   category: "Soup",
-  tags: ["Chicken", "Gluten Free", "Hot Hold", "Make Ahead", "Banquet", "High Volume"],
+  tags: ["Chicken", "Gluten Free", "Hot Hold", "Make Ahead"],
   ingredients: `- 1/3 six-pan minced garlic
 - 1/2 pan each medium-diced onion, green bell pepper, yellow bell pepper
 - 8–10 large jalapeños, diced
@@ -1519,7 +1500,7 @@ Holds well in steam well; loosen with stock if needed.`
   id: 62,
   name: "RGCC Olive Dip",
   category: "Pantry",
-  tags: ["Cold Hold", "Dairy", "Vegetarian", "Banquet", "Appetizer"],
+  tags: ["Cold Hold", "Dairy", "Vegetarian", "Banquet"],
   ingredients: `
 - 1 lb cream cheese, softened
 - 1 cup sour cream
@@ -1555,7 +1536,7 @@ Excellent with grilled focaccia or flatbread.
   id: 63, 
   name: "RGCC French Onion Dip",
   category: "Pantry",
-  tags: ["Cold Hold", "Dairy", "Banquet", "Appetizer"],
+  tags: ["Cold Hold", "Dairy", "Banquet"],
   ingredients: `
 - 2 tablespoons canola oil
 - 3 cups yellow onions, small dice
@@ -1705,6 +1686,919 @@ If sauce loosens, whisk briefly to re-emulsify.
 If breaking begins, whisk in 1 tablespoon cold water.
   `
 },
+
+const tortillaChipSeasoning: Recipe = {
+  id: 1007,
+  name: "Tortilla Chip Seasoning",
+  category: "Dry Mix / Seasoning",
+  tags: ["GF", "Vegan", "Dry Storage", "Pantry"],
+  ingredients: `
+1 cup Salt
+1 cup Chili Powder
+1 cup Ground Cumin
+1 cup Garlic Powder
+  `,
+  instructions: `
+1. Combine salt, chili powder, ground cumin, and garlic powder in a large mixing bowl.
+2. Whisk thoroughly until evenly blended.
+3. Taste and adjust seasoning if necessary.
+4. Transfer to an appropriate storage container.
+5. Label, date, and store in a dry area.
+  `
+};
+const raspberryVinaigrette: Recipe = {
+  id: 1008,
+  name: "Raspberry Vinaigrette",
+  category: "Dressing",
+  tags: ["GF", "Vegetarian", "Pantry"],
+  ingredients: `
+1 lb IQF Raspberries
+1 cup Brown Sugar
+1 1/2 cups Raspberry Vinegar
+2 Tbsp Dijon Mustard
+1/2 cup Minced Shallots
+2 Tbsp Chopped Fresh Basil
+1 Tbsp Kosher Salt
+1 tsp Black Pepper
+4 cups Canola Oil
+2 Tbsp Fresh Lemon Juice
+  `,
+  instructions: `
+1. In a saucepan, combine IQF raspberries and brown sugar. Cook over medium heat until berries break down and sugar dissolves (5–7 minutes).
+2. Add raspberry vinegar and simmer 2–3 minutes more.
+3. Remove from heat and blend until smooth using an immersion blender.
+4. Strain through a chinois for a smooth texture. Cool completely.
+5. In a mixing bowl, combine raspberry base, Dijon mustard, shallots, basil, salt, pepper, and lemon juice.
+6. Slowly whisk in canola oil until fully emulsified.
+7. Taste and adjust seasoning if necessary.
+8. Transfer to appropriate container, label, date, and refrigerate.
+  `
+};
+const blueCheeseDressing: Recipe = {
+  id: 1009,
+  name: "Blue Cheese Dressing",
+  category: "Dressing",
+  tags: ["Vegetarian", "Cold Prep", "Expo"],
+  ingredients: `
+2 qt Mayonnaise
+0.5 lb Sour Cream
+0.5 cup Chopped Parsley
+2 Tbsp Lemon Juice
+1.5 tsp Garlic Powder
+1.5 tsp Celery Seed
+1 tsp Salt
+1 tsp Ground White Pepper
+1 Tbsp Worcestershire Sauce
+0.5 cup Shredded Parmesan
+2.5 lb Blue Cheese Crumbles
+3.5 cups Buttermilk
+  `,
+  instructions: `
+1. In a large mixing bowl, combine mayonnaise, sour cream, and buttermilk. Whisk until smooth.
+2. Add lemon juice, Worcestershire sauce, garlic powder, celery seed, salt, and white pepper. Mix thoroughly.
+3. Fold in parsley, shredded Parmesan, and blue cheese crumbles.
+4. Whisk gently until fully incorporated but still slightly chunky.
+5. Taste and adjust seasoning as needed.
+6. Transfer to appropriate container, label, date, and refrigerate.
+  `
+};
+const tartarSauce: Recipe = {
+  id: 1010,
+  name: "Tartar Sauce",
+  category: "Sauce",
+  tags: ["Cold Prep", "Vegetarian"],
+  ingredients: `
+4 cups Mayonnaise
+1 cup Cornichons
+2/3 cup Capers
+1 cup Minced Shallots
+4 tsp Dijon Mustard
+1/3 cup Chopped Parsley
+1/2 cup Chopped Chives
+1/2 cup Chopped Dill
+4 tsp Lemon Juice
+2 tsp Ground White Pepper
+1/2 cup Buttermilk
+  `,
+  instructions: `
+1. Finely chop parsley, chives, dill, and shallots by hand.
+2. In a Robot Coupe, pulse cornichons and capers until finely chopped but not pureed.
+3. In a large mixing bowl, combine mayonnaise, Dijon mustard, lemon juice, white pepper, and buttermilk.
+4. Fold in processed cornichons, capers, shallots, and fresh herbs.
+5. Mix until evenly incorporated.
+6. Taste and adjust seasoning as needed.
+7. Transfer to appropriate container, label, date, and refrigerate.
+  `
+};
+const blackeningSeasoning: Recipe = {
+  id: 1011,
+  name: "Blackening Seasoning",
+  category: "Dry Mix / Seasoning",
+  tags: ["GF", "Pantry"],
+  ingredients: `
+1 1/2 cups Sweet Paprika
+1/2 cup Smoked Paprika
+1/2 cup Kosher Salt
+1/2 cup Garlic Powder
+1/2 cup Onion Powder
+1/2 cup Ground Black Pepper
+1/4 cup Cayenne Pepper
+1/4 cup Dried Thyme
+1/4 cup Dried Oregano
+2 Tbsp Ground Fennel Seed
+2 Tbsp Ground Celery Seed
+2 Tbsp Brown Sugar (optional)
+  `,
+  instructions: `
+1. Combine all ingredients in a large mixing bowl.
+2. Whisk thoroughly until evenly blended and evenly distributed.
+3. Taste on a small seared piece of protein and adjust salt or heat if necessary.
+4. Transfer to an airtight container.
+5. Label, date, and store in dry storage.
+  `
+};
+const basilBalsamicVinaigrette: Recipe = {
+  id: 1012,
+  name: "Basil Balsamic Vinaigrette",
+  category: "Dressing",
+  tags: ["GF", "Vegetarian", "Cold Prep"],
+  ingredients: `
+2 cups Fresh Basil, destemmed and packed
+2 cups White Balsamic Vinegar
+1 cup Dijon Mustard
+2 Shallots, chopped
+1 Tbsp Kosher Salt
+2 tsp Ground Black Pepper
+3 1/4 cups Sunflower Oil
+3/4 cup Olive Oil
+  `,
+  instructions: `
+1. In a large Cambro, combine basil, white balsamic vinegar, Dijon mustard, chopped shallots, salt, and black pepper.
+2. Using an immersion blender, blend until smooth.
+3. While blending, slowly stream in sunflower oil followed by olive oil until fully emulsified.
+4. Taste and adjust seasoning if necessary.
+5. Transfer to appropriate container, label, date, and refrigerate.
+  `
+};
+const drunkenCherries: Recipe = {
+  id: 1013,
+  name: "Drunken Cherries",
+  category: "Dessert Component",
+  tags: ["Vegetarian", "Cold Prep", "Pantry"],
+  ingredients: `
+1.5 cups Water
+3 Cinnamon Sticks
+1.5 tsp Ground Nutmeg
+1.5 cups Sugar
+3 Lemons, juice and zest
+3 Tbsp Vanilla Paste
+3/4 tsp Salt
+3 lb Frozen Cherries
+3 cups Luxardo Maraschino Liqueur
+  `,
+  instructions: `
+1. In a medium saucepan over medium heat, combine water, cinnamon sticks, nutmeg, sugar, lemon juice and zest, vanilla paste, and salt.
+2. Bring to a simmer, then reduce heat to low and cook for 5 minutes until slightly reduced.
+3. Add frozen cherries and return to a simmer. Cook for 7 minutes until cherries are softened.
+4. Remove from heat and discard cinnamon sticks.
+5. Stir in Luxardo Maraschino liqueur.
+6. Taste and adjust if necessary.
+7. Transfer to appropriate container, label, date, and refrigerate.
+  `
+};
+const sichuanNumbingOil: Recipe = {
+  id: 1014,
+  name: "Sichuan Numbing Oil",
+  category: "Sauce / Oil",
+  tags: ["GF", "Pantry", "Hot Prep"],
+  ingredients: `
+3 quarts Salad Oil (plus 3 cups reserved for initial fry)
+10 Shallots, minced
+20 Garlic Cloves, minced
+100 g Fresh Ginger, minced
+5 Red Chilies, sliced
+8 Whole Star Anise
+1/2 cup Chili Flakes
+1/2 cup Sichuan Peppercorns, roughly crushed
+1/2 cup Tomato Paste
+3 Tbsp + 1 tsp Black Sesame Seeds
+3 Tbsp + 1 tsp White Sesame Seeds
+
+1/2 cup Sesame Oil
+1/2 cup Soy Sauce
+4 tsp Sichuan Chili Flake
+4 tsp Salt
+8 tsp Chili Powder
+2 tsp Minced Ginger (reserved from above)
+2 tsp Minced Garlic (reserved from above)
+2 tsp Minced Shallot (reserved from above)
+  `,
+  instructions: `
+1. In a bowl, combine sesame oil, soy sauce, Sichuan chili flake, salt, chili powder, and the reserved minced ginger, garlic, and shallot. Set aside.
+2. Toast black and white sesame seeds lightly in a dry pan until fragrant. Set aside.
+3. In a large pot, heat 3 cups of salad oil over medium heat.
+4. Add shallots, garlic, ginger, red chilies, star anise, chili flakes, and crushed Sichuan peppercorns. Lightly fry for 5 minutes until aromatic but not browned.
+5. Add tomato paste and toasted sesame seeds. Cook for 2 minutes, stirring constantly.
+6. Pour in remaining salad oil. Reduce heat to low and simmer gently for 10 minutes.
+7. Remove from heat.
+8. Stir in reserved sesame oil and soy sauce mixture.
+9. Cool completely before transferring to appropriate container.
+10. Label, date, and store properly.
+  `
+};
+const masalaKhichdi: Recipe = {
+  id: 1015,
+  name: "Masala Khichdi",
+  category: "Starch / Vegetarian Entree",
+  tags: ["GF", "Vegetarian", "Hot Prep"],
+  ingredients: `
+1/4 cup Clarified Butter (Ghee)
+4 Bay Leaves
+1 tsp Cardamom
+1 (4-inch) Cinnamon Stick
+6 Cloves
+4 tsp Cumin
+1 pinch Asafetida
+
+1 tsp Turmeric
+1/4 tsp Cayenne Pepper
+2 tsp Chili Powder
+2 tsp Garam Masala
+4 tsp Salt
+
+1 Bell Pepper, diced
+2 Large Onions, diced
+4 Jalapeños, seeded and diced
+2 Large Tomatoes, diced
+2 tsp Minced Garlic
+2 tsp Minced Ginger
+
+2 cups Basmati Rice, washed and drained
+2 cups Moong Dal, washed and drained
+10 cups Water
+  `,
+  instructions: `
+1. In a large pot over medium heat, melt ghee. Add bay leaves, cardamom, cinnamon stick, cloves, cumin, and asafetida. Sauté for 1 minute until aromatic.
+2. Add bell pepper, onions, jalapeños, tomatoes, garlic, and ginger. Sauté until tomatoes begin to break down.
+3. Add turmeric, cayenne, chili powder, garam masala, and salt. Sauté for 1 minute.
+4. Add washed basmati rice and washed moong dal. Sauté for 1 minute, stirring to coat.
+5. Add water and bring to a low boil. Reduce heat to a simmer, cover, and cook for 20 minutes.
+6. Remove from heat and let stand covered for 10 minutes.
+7. For service prep, spread onto sheet trays to cool quickly. Store properly.
+  `
+};
+const appleCabbageSlawFull: Recipe = {
+  id: 1017,
+  name: "Apple Cabbage Slaw (Full Batch)",
+  category: "Pantry",
+  tags: ["Vegetarian", "Cold Prep"],
+  ingredients: `
+3 Heads Green Cabbage, shredded
+3 Apples, julienned
+4–5 Jalapeños, seeded and diced
+5 cups Mayonnaise
+1/2 cup Dijon Mustard
+4 Tbsp Whole Grain Mustard
+1 cup Apple Cider Vinegar
+2/3 cup Sugar
+1 cup Carrots, shredded
+1 1/2 Tbsp Celery Seeds
+1/2 tsp Cayenne Pepper
+1 cup Fresh Mixed Herbs (Parsley, Cilantro, Dill, Chives)
+Salt and Pepper to taste
+  `,
+  instructions: `
+1. Shred cabbage and carrots.
+2. Julienne apples directly into apple cider vinegar to prevent oxidation.
+3. In a large mixing bowl, combine cabbage, carrots, jalapeños, mayonnaise, Dijon mustard, whole grain mustard, sugar, celery seeds, cayenne, and fresh herbs.
+4. Add apples and vinegar mixture.
+5. Mix thoroughly until evenly coated.
+6. Season with salt and pepper to taste.
+7. Cover and refrigerate.
+  `
+};
+const appleCabbageSlawSmall: Recipe = {
+  id: 1018,
+  name: "Apple Cabbage Slaw (4-Cup Batch)",
+  category: "Pantry",
+  tags: ["Vegetarian", "Cold Prep"],
+  ingredients: `
+3 cups Green Cabbage, shredded
+1/2 Apple, julienned
+1 tsp Jalapeño, seeded and finely diced
+1/3 cup Mayonnaise
+1 tsp Dijon Mustard
+1 tsp Whole Grain Mustard
+1 Tbsp Apple Cider Vinegar
+2 tsp Sugar
+2 Tbsp Carrots, shredded
+1/2 tsp Celery Seeds
+Pinch Cayenne Pepper
+2 Tbsp Fresh Mixed Herbs, chopped
+Salt and Pepper to taste
+  `,
+  instructions: `
+1. Shred cabbage and carrots.
+2. Julienne apple directly into apple cider vinegar.
+3. In a mixing bowl, combine cabbage, carrots, jalapeño, mayonnaise, mustards, sugar, celery seeds, cayenne, and herbs.
+4. Add apples and vinegar.
+5. Mix thoroughly until evenly coated.
+6. Season with salt and pepper to taste.
+7. Chill before serving.
+  `
+};
+const ricottaGnocchi: Recipe = {
+  id: 1019,
+  name: "Ricotta Gnocchi",
+  category: "Pantry",
+  tags: ["Vegetarian", "Pasta", "Hot Prep"],
+  ingredients: `
+2 lb Ricotta
+1 1/2 cups Ground Parmesan
+2 Whole Eggs
+2 Egg Yolks
+2 Tbsp Truffle Oil
+3 1/2 cups All-Purpose Flour (plus extra as needed)
+Salt and Pepper to taste
+Fresh Nutmeg to taste
+  `,
+  instructions: `
+1. In a large bowl or on a clean work surface, combine flour, salt, pepper, and nutmeg.
+2. Form a well in the center.
+3. Add ricotta, Parmesan, whole eggs, egg yolks, and truffle oil into the well.
+4. Using a circular sweeping motion, gradually incorporate the flour into the wet ingredients, similar to making fresh pasta dough.
+5. Mix gently until just smooth. Do not overwork. Add additional flour only if dough is too wet or sticky.
+6. Wrap and let rest 30 minutes to 1 hour before rolling and shaping.
+7. Roll into ropes, cut into desired size, and dust lightly with flour.
+  `
+};
+const cashewGreenChutney: Recipe = {
+  id: 1020,
+  name: "Cashew Green Chutney",
+  category: "Sauces",
+  tags: ["Vegetarian", "GF", "Cold Prep"],
+  ingredients: `
+3/4 cup Whole Raw Unsalted Cashews
+1/2 cup Boiling Water
+1 bunch Fresh Cilantro
+3 Scallions (white and green parts)
+1 Chili, destemmed and partially deseeded
+1 Tbsp Brined Green Peppercorns, drained
+Zest of 1 Lime
+2 Tbsp Fresh Lime Juice
+Salt to taste
+  `,
+  instructions: `
+1. Bring 1/2 cup water to a boil. Remove from heat and pour over cashews.
+2. Soak cashews for 15 minutes to soften.
+3. Add soaked cashews (with soaking liquid), cilantro, scallions, chili, green peppercorns, lime zest, and lime juice to a blender.
+4. Blend until completely smooth.
+5. Season with salt to taste.
+6. Transfer to appropriate container, label, date, and refrigerate.
+  `
+};
+const duckWontonOrangeSauce: Recipe = {
+  id: 1021,
+  name: "Duck Wonton Orange Sauce",
+  category: "Sauces",
+  tags: ["Hot Prep", "Pantry"],
+  ingredients: `
+2 cups Water
+4 1/2 cups Orange Juice
+2 cups Brown Sugar
+3/4 cup Maple Syrup
+3/4 cup Rice Vinegar
+18 Garlic Cloves, minced
+2 Tbsp Fresh Ginger, minced
+
+1 1/2 cups Soy Sauce
+2 Tbsp Sesame Oil
+
+6 Tbsp Cornstarch
+3/4 cup Water (for slurry)
+  `,
+  instructions: `
+1. In a saucepan, combine water, orange juice, brown sugar, maple syrup, rice vinegar, garlic, and ginger.
+2. Bring to a boil over medium heat.
+3. Add soy sauce and sesame oil. Stir to combine.
+4. In a separate bowl, whisk together cornstarch and 3/4 cup water to form a slurry.
+5. Slowly whisk slurry into simmering sauce.
+6. Bring back to a boil and cook until thickened.
+7. Remove from heat.
+8. Transfer to appropriate container, label, date, and refrigerate.
+  `
+};
+const hazelnutRomesco: Recipe = {
+  id: 1022,
+  name: "Hazelnut Romesco",
+  category: "Sauces",
+  tags: ["Vegetarian", "GF", "Cold Prep"],
+  ingredients: `
+1/2 cup Olive Oil
+10 Garlic Cloves
+3 Roasted Red Peppers, peeled and seeded
+4 Tomatoes, diced
+1/2 Tbsp Crushed Red Pepper
+3 Slices Sourdough Bread
+1 cup Red Wine
+1/2 cup Hazelnuts, toasted
+2 Tbsp Honey
+Salt and Pepper to taste
+  `,
+  instructions: `
+1. Add olive oil, garlic, roasted red peppers, tomatoes, crushed red pepper, sourdough bread, red wine, hazelnuts, and honey to a Vitaprep.
+2. Blend until smooth.
+3. Season with salt and pepper to taste.
+4. Transfer to appropriate container, label, date, and refrigerate.
+  `
+};
+const hotHoneyHarissa: Recipe = {
+  id: 1023,
+  name: "Hot Honey Harissa",
+  category: "Sauces",
+  tags: ["Pantry", "Hot Prep"],
+  ingredients: `
+1 gallon Honey
+2 cups Sweet Chili Glaze
+2 cups Harissa (adjust slightly to taste)
+  `,
+  instructions: `
+1. In a large pot, combine honey, sweet chili glaze, and harissa.
+2. Bring to a gentle boil over medium heat, stirring to fully incorporate.
+3. Reduce heat and simmer briefly until smooth and evenly blended.
+4. Taste and adjust harissa if additional heat is desired.
+5. Remove from heat.
+6. Transfer to appropriate container, label, date, and store.
+  `
+};
+const pistachioButter: Recipe = {
+  id: 1024,
+  name: "Pistachio Butter",
+  category: "Sauces",
+  tags: ["Vegetarian", "GF", "Cold Prep"],
+  ingredients: `
+1 cup Pistachios, lightly toasted
+1/2 cup Water
+1 Tbsp Red Wine Vinegar
+1 tsp Kosher Salt
+3 Tbsp Olive Oil
+  `,
+  instructions: `
+1. Add toasted pistachios to a Vitaprep or food processor and blend into a fine dust.
+2. While blending, add water, red wine vinegar, and kosher salt.
+3. Stop and scrape down sides as needed.
+4. Continue blending while slowly streaming in olive oil.
+5. Blend until smooth and emulsified.
+6. Adjust seasoning if necessary.
+7. Transfer to appropriate container, label, date, and refrigerate.
+  `
+};
+const spicyGreenYogurt: Recipe = {
+  id: 1025,
+  name: "Spicy Green Yogurt",
+  category: "Sauces",
+  tags: ["Vegetarian", "GF", "Cold Prep"],
+  ingredients: `
+1/2 cup Olive Oil
+1/2 cup Cilantro, roughly chopped (stems included)
+1/2 cup Parsley, roughly chopped (stems included)
+5 Garlic Cloves, smashed
+2 tsp Ground Cumin
+1 Tbsp Ground Coriander
+1 Tbsp Lemon Juice
+2 tsp Kosher Salt
+1 Jalapeño, deseeded and diced
+1 cup Plain Yogurt
+  `,
+  instructions: `
+1. In a blender, combine olive oil, cilantro, parsley, garlic, cumin, coriander, lemon juice, salt, and jalapeño.
+2. Blend until completely smooth.
+3. Add yogurt and blend again until fully incorporated and smooth.
+4. Taste and adjust seasoning if necessary.
+5. Transfer to appropriate container, label, date, and refrigerate.
+  `
+};
+const swordfishMarinade: Recipe = {
+  id: 1026,
+  name: "Swordfish Marinade",
+  category: "Sauces",
+  tags: ["Marinade", "Pantry", "Cold Prep"],
+  ingredients: `
+1 (25.3 oz) Bottle Sherry Vinegar
+2 cups Molasses
+1 cup Olive Oil
+1/2 cup Fresh Thyme
+Zest of 6 Oranges
+Zest of 2 Lemons
+1/2 cup Fresh Orange Juice
+1/2 cup Ground Cumin
+3 Bulbs Garlic, peeled and blitzed
+2 Tbsp Kosher Salt
+  `,
+  instructions: `
+1. In a large mixing container, combine sherry vinegar, molasses, olive oil, thyme, citrus zest, orange juice, cumin, garlic, and salt.
+2. Whisk thoroughly until fully incorporated.
+3. Submerge swordfish completely in marinade.
+4. Cover and refrigerate 6–8 hours or overnight.
+5. Remove fish from marinade and pat completely dry before grilling.
+6. Lightly oil fish before placing on hot, clean grill grates.
+  `
+};
+const tzatziki: Recipe = {
+  id: 1027,
+  name: "Tzatziki",
+  category: "Sauces",
+  tags: ["Vegetarian", "Cold Prep", "Pantry"],
+  ingredients: `
+1 Cucumber, peeled and deseeded (peel and seeds reserved)
+1/2 cup Capers, finely chopped
+1/2 cup Red Onion, minced
+1/2 cup Tahini Paste
+2 quarts 10% Greek Yogurt
+1 bunch Fresh Dill, picked and chopped
+Fresh Lemon Juice, to taste
+Salt and Pepper, to taste
+Reserved Cucumber Juice (from peel and seeds)
+  `,
+  instructions: `
+1. Mince cucumber peel and seeds. Place in a china cap over a bowl and allow juice to drain. Reserve juice.
+2. In a large mixing bowl, combine Greek yogurt, capers, red onion, tahini, and chopped dill.
+3. Season with salt, pepper, and fresh lemon juice.
+4. Gradually add reserved cucumber juice until desired consistency is reached.
+5. Mix thoroughly.
+6. Transfer to appropriate container, label, date, and refrigerate.
+  `
+};
+const porkSpice: Recipe = {
+  id: 1028,
+  name: "Pork Spice",
+  category: "Pantry",
+  tags: ["Dry Mix", "GF"],
+  ingredients: `
+1 cup House Dried Onion Powder
+6 oz Toasted Fennel Seed
+2 oz Mustard Seed
+2 oz Mustard Powder
+4 oz Salt
+2 oz Black Pepper
+4 oz Sugar
+2 oz Chili Flakes
+2 oz Dried Thyme
+6 oz Brown Sugar
+  `,
+  instructions: `
+1. Add fennel seed, mustard seed, chili flakes, and thyme to spice grinder.
+2. Lightly pulse to partially grind, leaving some texture and structure.
+3. Transfer to large mixing bowl.
+4. Add onion powder, mustard powder, salt, black pepper, sugar, and brown sugar.
+5. Mix thoroughly until evenly combined.
+6. Store in airtight container.
+7. Label and date.
+  `
+};
+const walnutHummus: Recipe = {
+  id: 1029,
+  name: "Walnut Hummus",
+  category: "Sauces",
+  tags: ["Vegetarian", "Cold Prep"],
+  ingredients: `
+1/4 cup Olive Oil
+6 Garlic Cloves, rough chopped
+2 cups Walnuts, toasted
+Zest and Juice of 1 Lemon
+1 tsp Ground Turmeric
+Pinch Ground Cumin
+1 Tbsp White Miso
+1/2 cup Greek Yogurt
+Salt and Pepper to taste
+  `,
+  instructions: `
+1. In a small pan, heat olive oil and garlic over medium heat until oil begins to gently bubble.
+2. Reduce heat and cook briefly until garlic is fragrant but not browned. Remove from heat before garlic begins to color to prevent bitterness from carryover cooking.
+3. In a food processor, combine toasted walnuts, lemon zest, and warm garlic oil. Pulse until broken down.
+4. Add lemon juice, turmeric, cumin, and white miso. Process until smooth paste forms.
+5. Transfer mixture to a bowl and fold in Greek yogurt.
+6. Season with salt and pepper to taste.
+7. Transfer to appropriate container, label, date, and refrigerate.
+  `
+};
+const roastedEggplantRaita: Recipe = {
+  id: 1030,
+  name: "Roasted Eggplant Raita",
+  category: "Sauces",
+  tags: ["Vegetarian", "GF", "Cold Prep"],
+  ingredients: `
+4 Eggplants
+1/4 cup Olive Oil
+Maldon Salt, to taste
+12 Shallots, minced
+4 Jalapeños, minced
+1/2 cup Cilantro, chopped
+1/2 cup Mint, chopped
+2 tsp Ground Black Pepper
+1 quart Greek Yogurt
+1 cup Water
+1 Tbsp + 1 tsp Fresh Lime Juice
+
+Tadka:
+1 cup Salad Oil
+2 Tbsp + 2 tsp Mustard Seeds
+2 Tbsp + 2 tsp Cumin Seeds
+2 Tbsp + 2 tsp Chili Flakes
+  `,
+  instructions: `
+1. Preheat oven to 400°F.
+2. Cut eggplants in half lengthwise. Brush cut surfaces with olive oil and arrange on roasting rack.
+3. Roast 40–45 minutes until completely tender.
+4. Remove from oven, cover loosely with foil, and cool completely.
+5. Once cooled, remove and discard skins. Chop flesh and place in large mixing bowl. Season with Maldon salt.
+6. Add shallots, jalapeños, cilantro, mint, and black pepper. Mix gently.
+7. In a separate bowl, whisk together Greek yogurt, water, and lime juice.
+8. Fold yogurt mixture into eggplant mixture. Taste and adjust salt.
+
+Tadka:
+9. In a saucepan, heat salad oil over medium-high heat.
+10. Add mustard seeds and cumin seeds. Fry 30–45 seconds until cumin browns and spices are fragrant.
+11. Remove from heat. Add chili flakes and swirl to combine.
+12. Pour tadka over raita and gently mix.
+13. Transfer to appropriate container, label, date, and refrigerate.
+  `
+};
+const pimentoCheese: Recipe = {
+  id: 1031,
+  name: "Pimento Cheese",
+  category: "Sauces",
+  tags: ["Vegetarian", "Cold Prep", "Pantry"],
+  ingredients: `
+1 lb Shredded Cheddar
+4 oz Cream Cheese, room temperature
+1 cup Mayonnaise
+1/2 tsp Cayenne Pepper
+1 cup Roasted Red Peppers, diced
+Salt and Pepper to taste
+  `,
+  instructions: `
+1. In a large mixing bowl, combine shredded cheddar and cream cheese.
+2. Add mayonnaise and cayenne pepper.
+3. Fold until fully incorporated and smooth.
+4. Fold in roasted red peppers.
+5. Season with salt and pepper to taste.
+6. Transfer to appropriate container, label, date, and refrigerate.
+  `
+};
+const louieSauce: Recipe = {
+  id: 1032,
+  name: "Louie Sauce",
+  category: "Sauces",
+  tags: ["Cold Prep", "Pantry"],
+  ingredients: `
+3 gallons Mayonnaise
+1 gallon Ketchup
+2 cups Brandy
+Salt and Pepper to taste
+  `,
+  instructions: `
+1. In a large mixing container, combine mayonnaise and ketchup.
+2. Add brandy and mix thoroughly until fully incorporated.
+3. Season with salt and pepper to taste.
+4. Adjust consistency if necessary.
+5. Transfer to appropriate container, label, date, and refrigerate.
+  `
+};
+const spicedPecans: Recipe = {
+  id: 1033,
+  name: "Spiced Pecans",
+  category: "Pantry",
+  tags: ["Vegetarian", "GF", "Baked"],
+  ingredients: `
+4 3/4 cups Pecan Halves
+2 Egg Whites
+2 Tbsp Water
+1 cup Sugar
+2 tsp Salt
+1 Tbsp Ground Cinnamon
+2 tsp Ground Ginger
+2 tsp Ground Cardamom
+1 1/2 tsp Ground Allspice
+1 tsp Ground Coriander
+1/8 tsp Cayenne Pepper
+  `,
+  instructions: `
+1. Preheat oven to 250°F.
+2. Whisk egg whites and water until frothy.
+3. Toss pecans in egg white mixture and drain excess.
+4. In a separate bowl, combine sugar, salt, and all spices.
+5. Toss pecans in sugar-spice mixture until evenly coated.
+6. Spread onto a sprayed baking sheet in a single layer.
+7. Bake at 250°F for 10 minutes.
+8. Reduce oven temperature to 225°F and bake an additional 10 minutes, stirring occasionally, until golden brown and dry.
+9. Remove from oven and allow to cool completely.
+10. Transfer to airtight container once cooled.
+  `
+};
+const hummus: Recipe = {
+  id: 1034,
+  name: "Hummus",
+  category: "Sauces",
+  tags: ["Vegetarian", "GF", "Cold Prep"],
+  ingredients: `
+1 #10 Can Garbanzo Beans, drained
+16 oz Tahini Paste
+10 Large Garlic Cloves
+5 Large Shallots
+1 1/2 cups Olive Oil
+4 Large Red Peppers, roasted, seeded, and skinned
+3 Jalapeños, roasted, seeded, and skinned
+4 oz Cilantro (with stems)
+3 oz Flat Leaf Parsley
+2 1/2 Tbsp Ground Cumin
+Juice of 3 Lemons
+2 Tbsp Honey
+Salt and Pepper to taste
+  `,
+  instructions: `
+1. In a sauce pot, gently roast shallots and garlic in olive oil over low heat until soft and lightly caramelized. Do not brown aggressively.
+2. In a Vitaprep or food processor, combine drained garbanzo beans, tahini, roasted red peppers, roasted jalapeños, cilantro, parsley, cumin, lemon juice, and honey.
+3. Add warm shallots, garlic, and olive oil to the blender.
+4. Blend until smooth and creamy.
+5. Season with salt and pepper to taste.
+6. Transfer to appropriate container, label, date, and refrigerate.
+  `
+};
+const auGratenPotatoes: Recipe = {
+  id: 1035,
+  name: "Au Gratin Potatoes",
+  category: "Pantry",
+  tags: ["Vegetarian", "Baked", "Hot Prep"],
+  ingredients: `
+3 lb Russet Potatoes
+1 cup Gruyère Cheese, shredded
+3/4 cup Parmesan Reggiano, grated
+2 cups Heavy Cream (40%)
+2 Shallots, minced
+2 Tbsp Garlic, minced
+Salt and Pepper to taste
+Fresh Nutmeg to taste
+  `,
+  instructions: `
+1. Preheat oven to 325°F.
+2. Slice potatoes very thin using a mandoline or slicer.
+3. In a large mixing bowl, gently combine sliced potatoes with Gruyère, Parmesan, cream, shallots, garlic, salt, pepper, and nutmeg.
+4. Transfer mixture to baking dish of choice.
+5. Place dish on a sheet tray to catch any overflow during baking.
+6. Bake at 325°F for 30–40 minutes, checking for color and doneness.
+7. Reduce oven temperature to 275°F and continue baking until tender and golden brown.
+8. Test doneness by inserting a cake tester through the layers. Potatoes should be fully tender with no resistance.
+  `
+};
+const bantryTopping: Recipe = {
+  id: 1036,
+  name: "Bantry Topping",
+  category: "Pantry",
+  tags: ["Cold Prep"],
+  ingredients: `
+1 Loaf White Bread, crust removed and diced
+1 lb Butter, softened
+3 Tbsp Fresh Parsley, chopped
+1 Tbsp Fresh Tarragon, chopped
+1/2 tsp Cayenne Pepper
+15 oz Smoked Salmon, diced
+2 Tbsp Worcestershire Sauce
+1 oz Lemon Juice
+4 oz Prepared Horseradish
+Salt and Pepper to taste
+  `,
+  instructions: `
+1. Grind white bread in food processor until fine crumbs form.
+2. In a large mixing bowl, combine softened butter, smoked salmon, parsley, tarragon, cayenne, Worcestershire sauce, lemon juice, and horseradish.
+3. Fold in bread crumbs until evenly incorporated.
+4. Season with salt and pepper to taste.
+5. Transfer to appropriate container, label, date, and refrigerate.
+  `
+};
+const steakButter: Recipe = {
+  id: 1037,
+  name: "Steak Butter",
+  category: "Pantry",
+  tags: ["Compound Butter", "Hot Prep"],
+  ingredients: `
+15 lb Whole Butter, room temperature
+
+60 oz Yellow Onion, minced
+6 oz Garlic, minced (germ removed)
+
+6 oz White Wine
+4.5 oz Lemon Juice
+4.5 oz Worcestershire Sauce
+4.5 oz Brandy
+4.5 oz Madeira
+90 g Demi Glace
+
+3 oz Fresh Parsley, chopped
+3 Tbsp Fresh Chives, snipped
+0.75 oz Dried Marjoram
+0.25 oz Dried Thyme, ground
+42 g Paprika
+42 g Curry Powder
+21 g Ground Black Pepper
+84 g Salt
+
+9 Whole Eggs
+3 Egg Yolks
+  `,
+  instructions: `
+1. Remove butter from packaging and allow to soften at room temperature overnight.
+
+2. In a sauté pan, cook minced onion and garlic over medium heat until soft and translucent. Do not brown. Cool completely.
+
+3. In a saucepan, combine white wine, lemon juice, Worcestershire sauce, brandy, Madeira, and demi glace. Bring to a simmer and reduce by one-third. Cool completely.
+
+4. Prepare fresh parsley and chives just before final mixing.
+
+5. In mixer, whip softened butter in manageable batches.
+6. Gradually fold in cooled onion-garlic mixture and reduced liquid mixture.
+7. Add parsley, chives, marjoram, thyme, paprika, curry powder, black pepper, and salt.
+8. Add whole eggs and egg yolks.
+9. Whip until evenly incorporated, scraping bowl frequently.
+10. Do not overload mixer. Work in smaller batches to ensure even distribution.
+11. Portion, wrap, label, date, and refrigerate or freeze.
+  `
+};
+const lemonRicottaPancakesFull: Recipe = {
+  id: 1038,
+  name: "Lemon Ricotta Pancakes (Full Batch)",
+  category: "Pantry",
+  tags: ["Vegetarian", "Baked", "Brunch"],
+  ingredients: `
+12 Eggs
+4 quarts Whole Milk
+5 cups Buttermilk
+9 cups Ricotta Cheese
+16 oz Butter, melted
+5 quarts All-Purpose Flour
+130 g Baking Powder
+1 1/2 cups Sugar
+2 Tbsp Kosher Salt
+4 1/2 Tbsp Vanilla Extract
+Zest of 12 Lemons
+  `,
+  instructions: `
+1. Sift flour, baking powder, sugar, and salt together in large mixing bowl.
+2. In separate container, whisk eggs, whole milk, buttermilk, ricotta, melted butter, vanilla extract, and lemon zest.
+3. Fold wet ingredients into dry ingredients until just combined. Do not overmix.
+4. Allow batter to rest to hydrate and activate leavening.
+5. Cook on griddle in clarified butter until golden brown and fully set.
+  `
+};
+const pancakes: Recipe = {
+  id: 1040,
+  name: "Pancakes",
+  category: "Pantry",
+  tags: ["Vegetarian", "Brunch", "Griddle"],
+  ingredients: `
+4 lb All-Purpose Flour
+4 Tbsp Baking Soda
+4 Tbsp Baking Powder
+8 oz Sugar
+1 gallon Buttermilk
+15 Large Eggs
+4 oz Oil
+  `,
+  instructions: `
+1. In a large mixing bowl, combine flour, baking soda, baking powder, and sugar.
+2. In a separate container, whisk buttermilk, eggs, and oil.
+3. Fold wet ingredients into dry ingredients until just combined. Do not overmix.
+4. Allow batter to rest briefly before cooking.
+5. Cook on a hot griddle until bubbles form on surface, flip, and cook until golden brown and set.
+  `
+};
+const redWineVinaigrette: Recipe = {
+  id: 1041,
+  name: "Red Wine Vinaigrette",
+  category: "Sauces",
+  tags: ["Vegetarian", "GF", "Cold Prep"],
+  ingredients: `
+3 quarts Red Wine Vinegar
+1 cup Garlic, chopped
+1 cup Shallots, chopped
+3 1/2 oz Cracked Black Pepper
+1/2 cup Sugar
+1 Tbsp Mustard Powder
+1 tsp Curry Powder
+2 quarts Olive Oil
+5 quarts Vegetable Oil
+4 oz Lemon Juice
+4 oz Salt
+16 oz Dijon Mustard
+  `,
+  instructions: `
+1. In a large mixing container, combine red wine vinegar, garlic, shallots, black pepper, sugar, mustard powder, curry powder, lemon juice, salt, and Dijon mustard.
+2. Whisk until fully incorporated.
+3. Slowly stream in olive oil and vegetable oil while whisking to emulsify.
+4. Taste and adjust seasoning if necessary.
+5. Transfer to appropriate container, label, date, and refrigerate.
+  `
+};
 
 
   {
