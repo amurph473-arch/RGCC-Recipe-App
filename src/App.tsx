@@ -24,8 +24,8 @@ const sampleRecipes: Recipe[] = [
   {
   id: 3,
   name: "Caesar Dressing",
-  category: "Pantry",
-  tags: ["Egg", "Fish", "Dairy", "Cold Hold", "Make Ahead"],
+  category: "Dressing",
+  tags: ["Egg", "Fish", "Dairy", "Cold Hold", "Banquet", "Pantry"],
   ingredients: `- 1 qt red wine vinegar
 - 3/4 cup chopped garlic',
 - 14 oz anchovies
@@ -47,8 +47,8 @@ const sampleRecipes: Recipe[] = [
 {
   id: 4,
   name: "Red Wine Vinaigrette",
-  category: "Pantry",
-  tags: ["Vegan", "Gluten Free", "Cold Hold", "Make Ahead"],
+  category: "Dressing",
+  tags: ["Vegan", "Gluten Free", "Cold Hold", "Pantry", "Make Ahead"],
   ingredients: `- 1 cup sherry vinegar
 - 3 cups red wine vinegar
 - 1/3 cup chopped garlic
@@ -420,7 +420,7 @@ Optional additions:
   id: 24,
   name: "Rochester Chimichurri",
   category: "Saute",
-  tags: ["Vegan", "Gluten Free", "Cold Hold", "Make Ahead", "Herb Sauce"],
+  tags: ["Vegan", "Gluten Free", "Sauces", "Cold Hold", "Make Ahead", "Herb Sauce"],
   ingredients: `- 1 bunch parsley, leaves only
 - 1 bunch cilantro, leaves and tender stems
 - 1 garlic clove, smashed
@@ -583,7 +583,7 @@ Seasoning:
   id: 32,
   name: "Balsamic Vinaigrette (Banquet Batch)",
   category: "Banquet",
-  tags: ["Contains Gluten", "Make Ahead", "Cold Hold", "Salad Station"],
+  tags: ["Contains Gluten", "Make Ahead", "Dressings", "Cold Hold", "Salad Station"],
   ingredients: `- 1/2 quart red onion, minced
 - 1 bottle Worcestershire sauce
 - 6 cups balsamic vinegar
@@ -1476,7 +1476,7 @@ Holds well in steam well; loosen with stock if needed.`
 {
   id: 61, 
   name: "Chive Sour Cream",
-  category: "Pantry",
+  category: "Banquet",
   tags: ["Cold Hold", "Dairy", "Banquet", "Sauce"],
   ingredients: `
 - 6 cups sour cream
@@ -1496,7 +1496,7 @@ Holds well in steam well; loosen with stock if needed.`
 {
   id: 62,
   name: "RGCC Olive Dip",
-  category: "Pantry",
+  category: "Banquet",
   tags: ["Cold Hold", "Dairy", "Vegetarian", "Banquet"],
   ingredients: `
 - 1 lb cream cheese, softened
@@ -1532,7 +1532,7 @@ Excellent with grilled focaccia or flatbread.
 {
   id: 63, 
   name: "RGCC French Onion Dip",
-  category: "Pantry",
+  category: "Banquet",
   tags: ["Cold Hold", "Dairy", "Banquet"],
   ingredients: `
 - 2 tablespoons canola oil
@@ -1602,7 +1602,7 @@ Cooked hold: 1 service.
 {
   id: 1004, // adjust ID
   name: "RGCC House Ranch Dressing",
-  category: "Pantry",
+  category: "Dressing",
   tags: ["Cold Hold", "Dairy", "Banquet", "Dressing"],
   ingredients: `
 - 2 ranch seasoning packets
@@ -1706,7 +1706,7 @@ If breaking begins, whisk in 1 tablespoon cold water.
   id: 1008,
   name: "Raspberry Vinaigrette",
   category: "Dressing",
-  tags: ["GF", "Vegetarian", "Pantry"],
+  tags: ["GF", "Vegetarian", "Banquet", "Pantry"],
   ingredients: `
 1 lb IQF Raspberries
 1 cup Brown Sugar
@@ -1734,7 +1734,7 @@ If breaking begins, whisk in 1 tablespoon cold water.
   id: 1009,
   name: "Blue Cheese Dressing",
   category: "Dressing",
-  tags: ["Vegetarian", "Cold Prep", "Expo"],
+  tags: ["Vegetarian", "Cold Prep", "Sauces", "Expo"],
   ingredients: `
 2 qt Mayonnaise
 0.5 lb Sour Cream
@@ -1761,7 +1761,7 @@ If breaking begins, whisk in 1 tablespoon cold water.
 {
   id: 1010,
   name: "Tartar Sauce",
-  category: "Sauce",
+  category: "Sauces",
   tags: ["Cold Prep", "Vegetarian"],
   ingredients: `
 4 cups Mayonnaise
@@ -1817,7 +1817,7 @@ If breaking begins, whisk in 1 tablespoon cold water.
   id: 1012,
   name: "Basil Balsamic Vinaigrette",
   category: "Dressing",
-  tags: ["GF", "Vegetarian", "Cold Prep"],
+  tags: ["GF", "Vegetarian", "Banquet", "Cold Prep"],
   ingredients: `
 2 cups Fresh Basil, destemmed and packed
 2 cups White Balsamic Vinegar
@@ -1839,7 +1839,7 @@ If breaking begins, whisk in 1 tablespoon cold water.
  {
   id: 1013,
   name: "Drunken Cherries",
-  category: "Dessert Component",
+  category: "BAR",
   tags: ["Vegetarian", "Cold Prep", "Pantry"],
   ingredients: `
 1.5 cups Water
@@ -1865,7 +1865,7 @@ If breaking begins, whisk in 1 tablespoon cold water.
  {
   id: 1014,
   name: "Sichuan Numbing Oil",
-  category: "Sauce / Oil",
+  category: "Sauces",
   tags: ["GF", "Pantry", "Hot Prep"],
   ingredients: `
 3 quarts Salad Oil (plus 3 cups reserved for initial fry)
@@ -2127,6 +2127,7 @@ Salt and Pepper to taste
 6. Transfer to appropriate container, label, date, and store.
   `,
 },
+
  {
   id: 1024,
   name: "Pistachio Butter",
@@ -2147,6 +2148,81 @@ Salt and Pepper to taste
 5. Blend until smooth and emulsified.
 6. Adjust seasoning if necessary.
 7. Transfer to appropriate container, label, date, and refrigerate.
+  `,
+},
+{
+  id: 1100,
+  name: "Pizza Dough (Full Batch)",
+  category: "Pizza",
+  tags: ["Baked", "Dough", "Pizza", "Yeast"],
+  ingredients: `
+5960 g Bread Flour
+95 g Salt
+21 g Yeast
+1419 g Poolish
+236 g Olive Oil
+1576 g Ice
+1760 g Water
+156 g Sugar
+  `,
+  instructions: `
+1. Add olive oil, poolish, ice, water, and salt to the bottom of the mixer bowl.
+2. Add sugar, yeast, and bread flour on top.
+3. Mix with dough hook attachment for 23 minutes on speed 1.
+4. Portion dough into 9 oz balls.
+5. Place 12 dough balls per dough box.
+6. Proof at room temperature for 2 hours before use.
+7. Store in cooler until needed.
+  `,
+},
+{
+  id: 1026,
+  name: "Pizza Dough (Half Batch)",
+  category: "Pizza",
+  tags: ["Baked", "Dough", "Pizza", "Yeast"],
+  ingredients: `
+2980 g Bread Flour
+47.5 g Salt
+10.5 g Yeast
+709.5 g Poolish
+118 g Olive Oil
+788 g Ice
+880 g Water
+78 g Sugar
+  `,
+  instructions: `
+1. Add olive oil, poolish, ice, water, and salt to the bottom of the mixer bowl.
+2. Add sugar, yeast, and bread flour on top.
+3. Mix with dough hook attachment for 23 minutes on speed 1.
+4. Portion dough into 9 oz balls.
+5. Place 12 dough balls per dough box.
+6. Proof at room temperature for 2 hours before use.
+7. Store in cooler until needed.
+  `,
+},
+{
+  id: 1102,
+  name: "Pizza Dough (Quarter Batch)",
+  category: "Pizza",
+  tags: ["Baked", "Dough", "Pizza", "Yeast"],
+  ingredients: `
+1490 g Bread Flour
+23.75 g Salt
+5.25 g Yeast
+354.75 g Poolish
+59 g Olive Oil
+394 g Ice
+440 g Water
+39 g Sugar
+  `,
+  instructions: `
+1. Add olive oil, poolish, ice, water, and salt to the bottom of the mixer bowl.
+2. Add sugar, yeast, and bread flour on top.
+3. Mix with dough hook attachment for 23 minutes on speed 1.
+4. Portion dough into 9 oz balls.
+5. Place 12 dough balls per dough box.
+6. Proof at room temperature for 2 hours before use.
+7. Store in cooler until needed.
   `,
 },
 
