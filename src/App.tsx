@@ -9,11 +9,7 @@ type Recipe = {
   instructions: string;
   notes?: string; // ✅ add this (optional)
 };
-sampleRecipes.forEach(recipe => {
-  if (recipe.category === "Soup") {
-    recipe.tags = recipe.tags.filter(tag => tag !== "Banquet");
-  }
-});
+
 
 
 const sampleRecipes: Recipe[] = [
@@ -24,7 +20,8 @@ const sampleRecipes: Recipe[] = [
     tags: ["GF"],
     ingredients: "Chicken breast, lemon, olive oil, garlic",
     instructions: "Season chicken. Grill to 165°F. Finish with lemon."
-  },{
+  },
+  {
   id: 3,
   name: "Caesar Dressing",
   category: "Pantry",
@@ -1686,8 +1683,7 @@ If sauce loosens, whisk briefly to re-emulsify.
 If breaking begins, whisk in 1 tablespoon cold water.
   `
 },
-
-const tortillaChipSeasoning: Recipe = {
+{
   id: 1007,
   name: "Tortilla Chip Seasoning",
   category: "Dry Mix / Seasoning",
@@ -1705,8 +1701,8 @@ const tortillaChipSeasoning: Recipe = {
 4. Transfer to an appropriate storage container.
 5. Label, date, and store in a dry area.
   `
-};
-const raspberryVinaigrette: Recipe = {
+},
+{
   id: 1008,
   name: "Raspberry Vinaigrette",
   category: "Dressing",
@@ -1733,8 +1729,8 @@ const raspberryVinaigrette: Recipe = {
 7. Taste and adjust seasoning if necessary.
 8. Transfer to appropriate container, label, date, and refrigerate.
   `
-};
-const blueCheeseDressing: Recipe = {
+},
+{
   id: 1009,
   name: "Blue Cheese Dressing",
   category: "Dressing",
@@ -1761,8 +1757,8 @@ const blueCheeseDressing: Recipe = {
 5. Taste and adjust seasoning as needed.
 6. Transfer to appropriate container, label, date, and refrigerate.
   `
-};
-const tartarSauce: Recipe = {
+},
+{
   id: 1010,
   name: "Tartar Sauce",
   category: "Sauce",
@@ -1789,8 +1785,8 @@ const tartarSauce: Recipe = {
 6. Taste and adjust seasoning as needed.
 7. Transfer to appropriate container, label, date, and refrigerate.
   `
-};
-const blackeningSeasoning: Recipe = {
+},
+{
   id: 1011,
   name: "Blackening Seasoning",
   category: "Dry Mix / Seasoning",
@@ -1816,8 +1812,8 @@ const blackeningSeasoning: Recipe = {
 4. Transfer to an airtight container.
 5. Label, date, and store in dry storage.
   `
-};
-const basilBalsamicVinaigrette: Recipe = {
+},
+ {
   id: 1012,
   name: "Basil Balsamic Vinaigrette",
   category: "Dressing",
@@ -1839,8 +1835,8 @@ const basilBalsamicVinaigrette: Recipe = {
 4. Taste and adjust seasoning if necessary.
 5. Transfer to appropriate container, label, date, and refrigerate.
   `
-};
-const drunkenCherries: Recipe = {
+},
+ {
   id: 1013,
   name: "Drunken Cherries",
   category: "Dessert Component",
@@ -1865,8 +1861,8 @@ const drunkenCherries: Recipe = {
 6. Taste and adjust if necessary.
 7. Transfer to appropriate container, label, date, and refrigerate.
   `
-};
-const sichuanNumbingOil: Recipe = {
+},
+ {
   id: 1014,
   name: "Sichuan Numbing Oil",
   category: "Sauce / Oil",
@@ -1905,8 +1901,8 @@ const sichuanNumbingOil: Recipe = {
 9. Cool completely before transferring to appropriate container.
 10. Label, date, and store properly.
   `
-};
-const masalaKhichdi: Recipe = {
+},
+ {
   id: 1015,
   name: "Masala Khichdi",
   category: "Starch / Vegetarian Entree",
@@ -1946,8 +1942,8 @@ const masalaKhichdi: Recipe = {
 6. Remove from heat and let stand covered for 10 minutes.
 7. For service prep, spread onto sheet trays to cool quickly. Store properly.
   `
-};
-const appleCabbageSlawFull: Recipe = {
+},
+ {
   id: 1017,
   name: "Apple Cabbage Slaw (Full Batch)",
   category: "Pantry",
@@ -1976,8 +1972,8 @@ Salt and Pepper to taste
 6. Season with salt and pepper to taste.
 7. Cover and refrigerate.
   `
-};
-const appleCabbageSlawSmall: Recipe = {
+},
+{
   id: 1018,
   name: "Apple Cabbage Slaw (4-Cup Batch)",
   category: "Pantry",
@@ -2006,8 +2002,8 @@ Salt and Pepper to taste
 6. Season with salt and pepper to taste.
 7. Chill before serving.
   `
-};
-const ricottaGnocchi: Recipe = {
+},
+{
   id: 1019,
   name: "Ricotta Gnocchi",
   category: "Pantry",
@@ -2031,8 +2027,8 @@ Fresh Nutmeg to taste
 6. Wrap and let rest 30 minutes to 1 hour before rolling and shaping.
 7. Roll into ropes, cut into desired size, and dust lightly with flour.
   `
-};
-const cashewGreenChutney: Recipe = {
+},
+ {
   id: 1020,
   name: "Cashew Green Chutney",
   category: "Sauces",
@@ -2056,8 +2052,8 @@ Salt to taste
 5. Season with salt to taste.
 6. Transfer to appropriate container, label, date, and refrigerate.
   `
-};
-const duckWontonOrangeSauce: Recipe = {
+},
+ {
   id: 1021,
   name: "Duck Wonton Orange Sauce",
   category: "Sauces",
@@ -2087,8 +2083,8 @@ const duckWontonOrangeSauce: Recipe = {
 7. Remove from heat.
 8. Transfer to appropriate container, label, date, and refrigerate.
   `
-};
-const hazelnutRomesco: Recipe = {
+},
+{
   id: 1022,
   name: "Hazelnut Romesco",
   category: "Sauces",
@@ -2111,8 +2107,8 @@ Salt and Pepper to taste
 3. Season with salt and pepper to taste.
 4. Transfer to appropriate container, label, date, and refrigerate.
   `
-};
-const hotHoneyHarissa: Recipe = {
+},
+{
   id: 1023,
   name: "Hot Honey Harissa",
   category: "Sauces",
@@ -2129,9 +2125,9 @@ const hotHoneyHarissa: Recipe = {
 4. Taste and adjust harissa if additional heat is desired.
 5. Remove from heat.
 6. Transfer to appropriate container, label, date, and store.
-  `
-};
-const pistachioButter: Recipe = {
+  `,
+},
+ {
   id: 1024,
   name: "Pistachio Butter",
   category: "Sauces",
@@ -2151,464 +2147,9 @@ const pistachioButter: Recipe = {
 5. Blend until smooth and emulsified.
 6. Adjust seasoning if necessary.
 7. Transfer to appropriate container, label, date, and refrigerate.
-  `
-};
-const spicyGreenYogurt: Recipe = {
-  id: 1025,
-  name: "Spicy Green Yogurt",
-  category: "Sauces",
-  tags: ["Vegetarian", "GF", "Cold Prep"],
-  ingredients: `
-1/2 cup Olive Oil
-1/2 cup Cilantro, roughly chopped (stems included)
-1/2 cup Parsley, roughly chopped (stems included)
-5 Garlic Cloves, smashed
-2 tsp Ground Cumin
-1 Tbsp Ground Coriander
-1 Tbsp Lemon Juice
-2 tsp Kosher Salt
-1 Jalapeño, deseeded and diced
-1 cup Plain Yogurt
   `,
-  instructions: `
-1. In a blender, combine olive oil, cilantro, parsley, garlic, cumin, coriander, lemon juice, salt, and jalapeño.
-2. Blend until completely smooth.
-3. Add yogurt and blend again until fully incorporated and smooth.
-4. Taste and adjust seasoning if necessary.
-5. Transfer to appropriate container, label, date, and refrigerate.
-  `
-};
-const swordfishMarinade: Recipe = {
-  id: 1026,
-  name: "Swordfish Marinade",
-  category: "Sauces",
-  tags: ["Marinade", "Pantry", "Cold Prep"],
-  ingredients: `
-1 (25.3 oz) Bottle Sherry Vinegar
-2 cups Molasses
-1 cup Olive Oil
-1/2 cup Fresh Thyme
-Zest of 6 Oranges
-Zest of 2 Lemons
-1/2 cup Fresh Orange Juice
-1/2 cup Ground Cumin
-3 Bulbs Garlic, peeled and blitzed
-2 Tbsp Kosher Salt
-  `,
-  instructions: `
-1. In a large mixing container, combine sherry vinegar, molasses, olive oil, thyme, citrus zest, orange juice, cumin, garlic, and salt.
-2. Whisk thoroughly until fully incorporated.
-3. Submerge swordfish completely in marinade.
-4. Cover and refrigerate 6–8 hours or overnight.
-5. Remove fish from marinade and pat completely dry before grilling.
-6. Lightly oil fish before placing on hot, clean grill grates.
-  `
-};
-const tzatziki: Recipe = {
-  id: 1027,
-  name: "Tzatziki",
-  category: "Sauces",
-  tags: ["Vegetarian", "Cold Prep", "Pantry"],
-  ingredients: `
-1 Cucumber, peeled and deseeded (peel and seeds reserved)
-1/2 cup Capers, finely chopped
-1/2 cup Red Onion, minced
-1/2 cup Tahini Paste
-2 quarts 10% Greek Yogurt
-1 bunch Fresh Dill, picked and chopped
-Fresh Lemon Juice, to taste
-Salt and Pepper, to taste
-Reserved Cucumber Juice (from peel and seeds)
-  `,
-  instructions: `
-1. Mince cucumber peel and seeds. Place in a china cap over a bowl and allow juice to drain. Reserve juice.
-2. In a large mixing bowl, combine Greek yogurt, capers, red onion, tahini, and chopped dill.
-3. Season with salt, pepper, and fresh lemon juice.
-4. Gradually add reserved cucumber juice until desired consistency is reached.
-5. Mix thoroughly.
-6. Transfer to appropriate container, label, date, and refrigerate.
-  `
-};
-const porkSpice: Recipe = {
-  id: 1028,
-  name: "Pork Spice",
-  category: "Pantry",
-  tags: ["Dry Mix", "GF"],
-  ingredients: `
-1 cup House Dried Onion Powder
-6 oz Toasted Fennel Seed
-2 oz Mustard Seed
-2 oz Mustard Powder
-4 oz Salt
-2 oz Black Pepper
-4 oz Sugar
-2 oz Chili Flakes
-2 oz Dried Thyme
-6 oz Brown Sugar
-  `,
-  instructions: `
-1. Add fennel seed, mustard seed, chili flakes, and thyme to spice grinder.
-2. Lightly pulse to partially grind, leaving some texture and structure.
-3. Transfer to large mixing bowl.
-4. Add onion powder, mustard powder, salt, black pepper, sugar, and brown sugar.
-5. Mix thoroughly until evenly combined.
-6. Store in airtight container.
-7. Label and date.
-  `
-};
-const walnutHummus: Recipe = {
-  id: 1029,
-  name: "Walnut Hummus",
-  category: "Sauces",
-  tags: ["Vegetarian", "Cold Prep"],
-  ingredients: `
-1/4 cup Olive Oil
-6 Garlic Cloves, rough chopped
-2 cups Walnuts, toasted
-Zest and Juice of 1 Lemon
-1 tsp Ground Turmeric
-Pinch Ground Cumin
-1 Tbsp White Miso
-1/2 cup Greek Yogurt
-Salt and Pepper to taste
-  `,
-  instructions: `
-1. In a small pan, heat olive oil and garlic over medium heat until oil begins to gently bubble.
-2. Reduce heat and cook briefly until garlic is fragrant but not browned. Remove from heat before garlic begins to color to prevent bitterness from carryover cooking.
-3. In a food processor, combine toasted walnuts, lemon zest, and warm garlic oil. Pulse until broken down.
-4. Add lemon juice, turmeric, cumin, and white miso. Process until smooth paste forms.
-5. Transfer mixture to a bowl and fold in Greek yogurt.
-6. Season with salt and pepper to taste.
-7. Transfer to appropriate container, label, date, and refrigerate.
-  `
-};
-const roastedEggplantRaita: Recipe = {
-  id: 1030,
-  name: "Roasted Eggplant Raita",
-  category: "Sauces",
-  tags: ["Vegetarian", "GF", "Cold Prep"],
-  ingredients: `
-4 Eggplants
-1/4 cup Olive Oil
-Maldon Salt, to taste
-12 Shallots, minced
-4 Jalapeños, minced
-1/2 cup Cilantro, chopped
-1/2 cup Mint, chopped
-2 tsp Ground Black Pepper
-1 quart Greek Yogurt
-1 cup Water
-1 Tbsp + 1 tsp Fresh Lime Juice
+},
 
-Tadka:
-1 cup Salad Oil
-2 Tbsp + 2 tsp Mustard Seeds
-2 Tbsp + 2 tsp Cumin Seeds
-2 Tbsp + 2 tsp Chili Flakes
-  `,
-  instructions: `
-1. Preheat oven to 400°F.
-2. Cut eggplants in half lengthwise. Brush cut surfaces with olive oil and arrange on roasting rack.
-3. Roast 40–45 minutes until completely tender.
-4. Remove from oven, cover loosely with foil, and cool completely.
-5. Once cooled, remove and discard skins. Chop flesh and place in large mixing bowl. Season with Maldon salt.
-6. Add shallots, jalapeños, cilantro, mint, and black pepper. Mix gently.
-7. In a separate bowl, whisk together Greek yogurt, water, and lime juice.
-8. Fold yogurt mixture into eggplant mixture. Taste and adjust salt.
-
-Tadka:
-9. In a saucepan, heat salad oil over medium-high heat.
-10. Add mustard seeds and cumin seeds. Fry 30–45 seconds until cumin browns and spices are fragrant.
-11. Remove from heat. Add chili flakes and swirl to combine.
-12. Pour tadka over raita and gently mix.
-13. Transfer to appropriate container, label, date, and refrigerate.
-  `
-};
-const pimentoCheese: Recipe = {
-  id: 1031,
-  name: "Pimento Cheese",
-  category: "Sauces",
-  tags: ["Vegetarian", "Cold Prep", "Pantry"],
-  ingredients: `
-1 lb Shredded Cheddar
-4 oz Cream Cheese, room temperature
-1 cup Mayonnaise
-1/2 tsp Cayenne Pepper
-1 cup Roasted Red Peppers, diced
-Salt and Pepper to taste
-  `,
-  instructions: `
-1. In a large mixing bowl, combine shredded cheddar and cream cheese.
-2. Add mayonnaise and cayenne pepper.
-3. Fold until fully incorporated and smooth.
-4. Fold in roasted red peppers.
-5. Season with salt and pepper to taste.
-6. Transfer to appropriate container, label, date, and refrigerate.
-  `
-};
-const louieSauce: Recipe = {
-  id: 1032,
-  name: "Louie Sauce",
-  category: "Sauces",
-  tags: ["Cold Prep", "Pantry"],
-  ingredients: `
-3 gallons Mayonnaise
-1 gallon Ketchup
-2 cups Brandy
-Salt and Pepper to taste
-  `,
-  instructions: `
-1. In a large mixing container, combine mayonnaise and ketchup.
-2. Add brandy and mix thoroughly until fully incorporated.
-3. Season with salt and pepper to taste.
-4. Adjust consistency if necessary.
-5. Transfer to appropriate container, label, date, and refrigerate.
-  `
-};
-const spicedPecans: Recipe = {
-  id: 1033,
-  name: "Spiced Pecans",
-  category: "Pantry",
-  tags: ["Vegetarian", "GF", "Baked"],
-  ingredients: `
-4 3/4 cups Pecan Halves
-2 Egg Whites
-2 Tbsp Water
-1 cup Sugar
-2 tsp Salt
-1 Tbsp Ground Cinnamon
-2 tsp Ground Ginger
-2 tsp Ground Cardamom
-1 1/2 tsp Ground Allspice
-1 tsp Ground Coriander
-1/8 tsp Cayenne Pepper
-  `,
-  instructions: `
-1. Preheat oven to 250°F.
-2. Whisk egg whites and water until frothy.
-3. Toss pecans in egg white mixture and drain excess.
-4. In a separate bowl, combine sugar, salt, and all spices.
-5. Toss pecans in sugar-spice mixture until evenly coated.
-6. Spread onto a sprayed baking sheet in a single layer.
-7. Bake at 250°F for 10 minutes.
-8. Reduce oven temperature to 225°F and bake an additional 10 minutes, stirring occasionally, until golden brown and dry.
-9. Remove from oven and allow to cool completely.
-10. Transfer to airtight container once cooled.
-  `
-};
-const hummus: Recipe = {
-  id: 1034,
-  name: "Hummus",
-  category: "Sauces",
-  tags: ["Vegetarian", "GF", "Cold Prep"],
-  ingredients: `
-1 #10 Can Garbanzo Beans, drained
-16 oz Tahini Paste
-10 Large Garlic Cloves
-5 Large Shallots
-1 1/2 cups Olive Oil
-4 Large Red Peppers, roasted, seeded, and skinned
-3 Jalapeños, roasted, seeded, and skinned
-4 oz Cilantro (with stems)
-3 oz Flat Leaf Parsley
-2 1/2 Tbsp Ground Cumin
-Juice of 3 Lemons
-2 Tbsp Honey
-Salt and Pepper to taste
-  `,
-  instructions: `
-1. In a sauce pot, gently roast shallots and garlic in olive oil over low heat until soft and lightly caramelized. Do not brown aggressively.
-2. In a Vitaprep or food processor, combine drained garbanzo beans, tahini, roasted red peppers, roasted jalapeños, cilantro, parsley, cumin, lemon juice, and honey.
-3. Add warm shallots, garlic, and olive oil to the blender.
-4. Blend until smooth and creamy.
-5. Season with salt and pepper to taste.
-6. Transfer to appropriate container, label, date, and refrigerate.
-  `
-};
-const auGratenPotatoes: Recipe = {
-  id: 1035,
-  name: "Au Gratin Potatoes",
-  category: "Pantry",
-  tags: ["Vegetarian", "Baked", "Hot Prep"],
-  ingredients: `
-3 lb Russet Potatoes
-1 cup Gruyère Cheese, shredded
-3/4 cup Parmesan Reggiano, grated
-2 cups Heavy Cream (40%)
-2 Shallots, minced
-2 Tbsp Garlic, minced
-Salt and Pepper to taste
-Fresh Nutmeg to taste
-  `,
-  instructions: `
-1. Preheat oven to 325°F.
-2. Slice potatoes very thin using a mandoline or slicer.
-3. In a large mixing bowl, gently combine sliced potatoes with Gruyère, Parmesan, cream, shallots, garlic, salt, pepper, and nutmeg.
-4. Transfer mixture to baking dish of choice.
-5. Place dish on a sheet tray to catch any overflow during baking.
-6. Bake at 325°F for 30–40 minutes, checking for color and doneness.
-7. Reduce oven temperature to 275°F and continue baking until tender and golden brown.
-8. Test doneness by inserting a cake tester through the layers. Potatoes should be fully tender with no resistance.
-  `
-};
-const bantryTopping: Recipe = {
-  id: 1036,
-  name: "Bantry Topping",
-  category: "Pantry",
-  tags: ["Cold Prep"],
-  ingredients: `
-1 Loaf White Bread, crust removed and diced
-1 lb Butter, softened
-3 Tbsp Fresh Parsley, chopped
-1 Tbsp Fresh Tarragon, chopped
-1/2 tsp Cayenne Pepper
-15 oz Smoked Salmon, diced
-2 Tbsp Worcestershire Sauce
-1 oz Lemon Juice
-4 oz Prepared Horseradish
-Salt and Pepper to taste
-  `,
-  instructions: `
-1. Grind white bread in food processor until fine crumbs form.
-2. In a large mixing bowl, combine softened butter, smoked salmon, parsley, tarragon, cayenne, Worcestershire sauce, lemon juice, and horseradish.
-3. Fold in bread crumbs until evenly incorporated.
-4. Season with salt and pepper to taste.
-5. Transfer to appropriate container, label, date, and refrigerate.
-  `
-};
-const steakButter: Recipe = {
-  id: 1037,
-  name: "Steak Butter",
-  category: "Pantry",
-  tags: ["Compound Butter", "Hot Prep"],
-  ingredients: `
-15 lb Whole Butter, room temperature
-
-60 oz Yellow Onion, minced
-6 oz Garlic, minced (germ removed)
-
-6 oz White Wine
-4.5 oz Lemon Juice
-4.5 oz Worcestershire Sauce
-4.5 oz Brandy
-4.5 oz Madeira
-90 g Demi Glace
-
-3 oz Fresh Parsley, chopped
-3 Tbsp Fresh Chives, snipped
-0.75 oz Dried Marjoram
-0.25 oz Dried Thyme, ground
-42 g Paprika
-42 g Curry Powder
-21 g Ground Black Pepper
-84 g Salt
-
-9 Whole Eggs
-3 Egg Yolks
-  `,
-  instructions: `
-1. Remove butter from packaging and allow to soften at room temperature overnight.
-
-2. In a sauté pan, cook minced onion and garlic over medium heat until soft and translucent. Do not brown. Cool completely.
-
-3. In a saucepan, combine white wine, lemon juice, Worcestershire sauce, brandy, Madeira, and demi glace. Bring to a simmer and reduce by one-third. Cool completely.
-
-4. Prepare fresh parsley and chives just before final mixing.
-
-5. In mixer, whip softened butter in manageable batches.
-6. Gradually fold in cooled onion-garlic mixture and reduced liquid mixture.
-7. Add parsley, chives, marjoram, thyme, paprika, curry powder, black pepper, and salt.
-8. Add whole eggs and egg yolks.
-9. Whip until evenly incorporated, scraping bowl frequently.
-10. Do not overload mixer. Work in smaller batches to ensure even distribution.
-11. Portion, wrap, label, date, and refrigerate or freeze.
-  `
-};
-const lemonRicottaPancakesFull: Recipe = {
-  id: 1038,
-  name: "Lemon Ricotta Pancakes (Full Batch)",
-  category: "Pantry",
-  tags: ["Vegetarian", "Baked", "Brunch"],
-  ingredients: `
-12 Eggs
-4 quarts Whole Milk
-5 cups Buttermilk
-9 cups Ricotta Cheese
-16 oz Butter, melted
-5 quarts All-Purpose Flour
-130 g Baking Powder
-1 1/2 cups Sugar
-2 Tbsp Kosher Salt
-4 1/2 Tbsp Vanilla Extract
-Zest of 12 Lemons
-  `,
-  instructions: `
-1. Sift flour, baking powder, sugar, and salt together in large mixing bowl.
-2. In separate container, whisk eggs, whole milk, buttermilk, ricotta, melted butter, vanilla extract, and lemon zest.
-3. Fold wet ingredients into dry ingredients until just combined. Do not overmix.
-4. Allow batter to rest to hydrate and activate leavening.
-5. Cook on griddle in clarified butter until golden brown and fully set.
-  `
-};
-const pancakes: Recipe = {
-  id: 1040,
-  name: "Pancakes",
-  category: "Pantry",
-  tags: ["Vegetarian", "Brunch", "Griddle"],
-  ingredients: `
-4 lb All-Purpose Flour
-4 Tbsp Baking Soda
-4 Tbsp Baking Powder
-8 oz Sugar
-1 gallon Buttermilk
-15 Large Eggs
-4 oz Oil
-  `,
-  instructions: `
-1. In a large mixing bowl, combine flour, baking soda, baking powder, and sugar.
-2. In a separate container, whisk buttermilk, eggs, and oil.
-3. Fold wet ingredients into dry ingredients until just combined. Do not overmix.
-4. Allow batter to rest briefly before cooking.
-5. Cook on a hot griddle until bubbles form on surface, flip, and cook until golden brown and set.
-  `
-};
-const redWineVinaigrette: Recipe = {
-  id: 1041,
-  name: "Red Wine Vinaigrette",
-  category: "Sauces",
-  tags: ["Vegetarian", "GF", "Cold Prep"],
-  ingredients: `
-3 quarts Red Wine Vinegar
-1 cup Garlic, chopped
-1 cup Shallots, chopped
-3 1/2 oz Cracked Black Pepper
-1/2 cup Sugar
-1 Tbsp Mustard Powder
-1 tsp Curry Powder
-2 quarts Olive Oil
-5 quarts Vegetable Oil
-4 oz Lemon Juice
-4 oz Salt
-16 oz Dijon Mustard
-  `,
-  instructions: `
-1. In a large mixing container, combine red wine vinegar, garlic, shallots, black pepper, sugar, mustard powder, curry powder, lemon juice, salt, and Dijon mustard.
-2. Whisk until fully incorporated.
-3. Slowly stream in olive oil and vegetable oil while whisking to emulsify.
-4. Taste and adjust seasoning if necessary.
-5. Transfer to appropriate container, label, date, and refrigerate.
-  `
-};
-
-
-  {
-    id: 2,
-    name: "Shrimp Scampi",
-    category: "Saute",
-    tags: ["Shellfish"],
-    ingredients: "Shrimp, garlic, butter, white wine",
-    instructions: "Sauté garlic. Add shrimp. Finish with butter."
-  }
 ];
 
 export default function App() {
