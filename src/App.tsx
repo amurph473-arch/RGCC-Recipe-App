@@ -2225,6 +2225,26 @@ Salt and Pepper to taste
 7. Store in cooler until needed.
   `,
 },
+{
+  id: 100, // change if needed
+  name: "Tzatziki",
+  category: "Pantry",
+  tags: ["Sauce", "Cold", "GF"],
+  ingredients: `- 1 cucumber (peeled & deseeded) – reserve flesh for another use
+- Cucumber peel & seeds (for juice)
+- ½ cup capers, finely chopped
+- ½ cup red onion, minced
+- ½ cup tahini paste
+- 2 quarts 10% Greek yogurt
+- 1 bunch dill, picked and chopped`,
+  instructions: `1. Mince cucumber peel and seeds, place in a china cap and allow juice to drain into a bowl.
+2. In a mixing bowl, combine yogurt, tahini, capers, red onion, and dill.
+3. Mix until fully incorporated.
+4. Season with salt, pepper, and lemon juice.
+5. Slowly add reserved cucumber juice until desired consistency is reached.`,
+  notes: `Yield: approx. 3 quarts.
+Bright, herb-forward tzatziki with added depth from tahini and capers. Adjust acidity and consistency at finish.`
+},
 
 ];
 
