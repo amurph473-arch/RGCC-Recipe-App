@@ -2245,8 +2245,1320 @@ Salt and Pepper to taste
   notes: `Yield: approx. 3 quarts.
 Bright, herb-forward tzatziki with added depth from tahini and capers. Adjust acidity and consistency at finish.`
 },
+,{
+  id: 32,
+  name: "Wasabi Cucumber Aioli",
+  category: "Sauce",
+  tags: ["Cold", "GF", "Sauce"],
+  ingredients: `- 1 qt mayo
+- 3–4 TB wasabi powder
+- 3 TB cold water
+- 1 English cucumber
+- 2 tsp rice vinegar
+- 1 tsp soy sauce
+- 1 Tbsp yuzu juice
+- 1 tsp kosher salt`,
 
+  instructions: `1. Bloom the wasabi:
+- Mix wasabi powder with cold water into a paste.
+- Let sit 5 minutes.
+
+2. Prep cucumber properly:
+- Grate cucumber.
+- Salt lightly and let sit 5–10 minutes.
+- Squeeze VERY well in a towel.
+
+3. Mix:
+- Combine mayo, wasabi paste, cucumber, rice vinegar, soy sauce, and yuzu juice.
+- Season with kosher salt.
+- Taste and adjust heat as needed.`,
+
+  notes: `Yield: approx. 1 quart.
+
+Important:
+Do not overdo cucumber.
+Use about 1/2 to 3/4 cup squeezed cucumber per quart.
+
+Chef Note:
+Properly squeezing cucumber is critical to avoid a watery aioli.`
+
+}
+,{
+  id: 33,
+  name: "Crispy Tofu Seasoning",
+  category: "Pantry",
+  tags: ["GF", "Seasoning", "Vegan"],
+  ingredients: `- 1 cup kosher salt
+- 1/2 cup garlic powder
+- 1/2 cup onion powder
+- 1/3 cup smoked paprika
+- 1/4 cup black pepper
+- 3 tbsp cayenne
+- 1/4 cup sugar`,
+
+  instructions: `1. Combine all ingredients thoroughly.
+2. Store in airtight container.
+3. Use 2 tbsp seasoning per 8 oz box GF panko for crispy tofu breading.`,
+
+  notes: `Bulk seasoning blend for crispy tofu application.
+Balanced savory heat with slight sweetness for browning and flavor.`
+
+},
+{
+  id: 34,
+  name: "Crispy Tofu Breading Procedure",
+  category: "Pantry",
+  tags: ["GF", "Vegan", "Procedure"],
+  ingredients: `- Firm tofu
+- GF flour
+- White Magic seasoning
+- Water
+- 1 box (8 oz) GF panko
+- 2 tbsp Crispy Tofu Seasoning`,
+
+  instructions: `1. Press tofu:
+- Cut tofu horizontally in half.
+- Place in hotel pan.
+- Cover with parchment and another hotel pan.
+- Press 20 minutes.
+
+2. Portion tofu:
+- Cut 3 rows.
+- Cut 4 squares from each row.
+- Yield: 24 pieces per package.
+
+3. Prepare breading:
+- Mix GF panko with 2 tbsp Crispy Tofu Seasoning.
+- Season GF flour with White Magic.
+
+4. Bread tofu:
+- Dredge tofu in seasoned GF flour.
+- Dip into water slurry.
+- Coat in seasoned GF panko mixture.
+
+5. Fry until crisp and golden brown.`,
+
+  notes: `Proper pressing is critical for texture and crispness.
+Do not oversaturate tofu in slurry or breading may fall off.`
+
+}
+,{
+  id: 35,
+  name: "Cherry Tomato Salad Vinaigrette",
+  category: "Sauce",
+  tags: ["Cold", "GF", "Vinaigrette"],
+  ingredients: `- 1/4 cup soy sauce
+- 1 cup sherry vinegar
+- 1 Tbsp + 1 tsp sesame oil
+- 2 cups salad oil`,
+
+  instructions: `1. Combine soy sauce, sherry vinegar, and sesame oil in mixing bowl.
+2. Slowly whisk in salad oil until fully emulsified.
+3. Label and date before storing.`,
+
+  notes: `Balanced vinaigrette for cherry tomato salad applications.
+Light sesame flavor with bright acidity from sherry vinegar.`
+
+}
+,{
+  id: 36,
+  name: "Chili Lime Sauce",
+  category: "Sauce",
+  tags: ["GF", "Vegan", "Sauce"],
+  ingredients: `- 1 bottle sweet chili sauce
+- 1/2 cup lime juice
+- Zest of 3 limes
+- 3 Tbsp soy sauce
+- 2 Tbsp sriracha
+- 2 Tbsp rice vinegar`,
+
+  instructions: `1. Combine all ingredients in mixing bowl.
+2. Whisk thoroughly until fully incorporated.
+3. Label and date before storing.`,
+
+  notes: `Sweet, bright, and lightly spicy finishing sauce for crispy tofu applications.
+Adjust lime juice or sriracha as needed for balance.`
+
+}
+,{
+  id: 37,
+  name: "Revised Chicken Meatball Mix",
+  category: "Pantry",
+  tags: ["GF", "Protein", "Batch Prep"],
+  ingredients: `- 5 lb ground chicken
+- 2 cups onion, finely diced and sweated
+- 10 cloves garlic, sweated with onion
+- 3/4 cup GF panko
+- 4 eggs
+- 1/4 cup olive oil
+- 1/2 cup parsley, chopped
+- 1 Tbsp dill, chopped (optional)
+- Salt
+- Black pepper`,
+
+  instructions: `1. Sweat onions and garlic over low heat until softened. Cool completely.
+
+2. Combine cooled onion mixture with ground chicken, GF panko, eggs, olive oil, parsley, dill, salt, and black pepper.
+
+3. Mix gently until just combined.
+- Do not overwork mixture.
+- Texture should be loose but cohesive.
+
+4. Portion into 6–7 oz meatballs.
+
+5. Hard sear meatballs in cast iron pan to develop deep color.
+
+6. Finish in 350°F oven until internal temperature reaches 160–165°F.
+- Pull slightly early and allow to rest before service.`,
+
+  notes: `Season aggressively.
+Target 2.25–2.5% salt by total weight.
+
+Chef Notes:
+Proper sear is critical for flavor development.
+Avoid overcooking — meatballs should remain juicy and tender.`
+
+}
+,{
+  id: 38,
+  name: "Goma Tare",
+  category: "Sauce",
+  tags: ["GF", "Cold", "Sauce"],
+  ingredients: `- 1 qt Kewpie mayo
+- 2 cups sesame paste (tahini)
+- 2 cups white miso
+- 2 cups water
+- 1/2 cup rice vinegar
+- 1/2 cup mirin
+- 2 cups sesame seeds`,
+
+  instructions: `1. Combine Kewpie mayo, tahini, white miso, water, rice vinegar, and mirin in mixing bowl.
+2. Whisk until completely smooth and fully incorporated.
+3. Fold in sesame seeds.
+4. Adjust consistency with additional water if needed.
+5. Label and date before storing.`,
+
+  notes: `Yield: approx. 2 quarts.
+
+Rich sesame-forward sauce with balanced sweetness and acidity.
+Excellent for tofu, noodle bowls, roasted vegetables, and composed salads.`
+
+}
+,{
+  id: 39,
+  name: "Citrus Tahini Yogurt",
+  category: "Sauce",
+  tags: ["GF", "Cold", "Sauce", "Vegetarian"],
+  ingredients: `- 3 qt Greek yogurt
+- 1 qt tahini
+- 1 1/2 cups lemon juice
+- 1/2 cup orange juice
+- Zest of 4 lemons
+- Zest of 2 oranges
+- 1/2 cup olive oil
+- 1/4 cup honey
+- 3 Tbsp kosher salt
+- 2 Tbsp garlic, microplaned
+- 1 Tbsp black pepper
+- Cold water as needed`,
+
+  instructions: `1. Combine Greek yogurt and tahini in large mixing bowl.
+2. Add lemon juice, orange juice, citrus zests, olive oil, honey, garlic, salt, and black pepper.
+3. Whisk thoroughly until smooth and fully incorporated.
+4. Adjust consistency with cold water as needed.
+5. Taste and adjust acidity and seasoning.
+6. Label and date before storing.`,
+
+  notes: `Yield: approx. 1 gallon.
+
+Bright, creamy sauce with balanced citrus and nuttiness.
+Excellent with roasted vegetables, grilled chicken, crispy tofu, grain bowls, and lamb applications.`
+
+}
+,{
+  id: 40,
+  name: "Walnut Hummus",
+  category: "Sauce",
+  tags: ["Vegetarian", "Spread", "Cold"],
+  ingredients: `- 1/4 cup olive oil
+- 6 garlic cloves, rough chopped
+- 2 cups walnuts, toasted
+- Zest and juice of 1 lemon
+- 1 tsp ground turmeric
+- Pinch ground cumin
+- 1 tsp white miso
+- 1/2 cup Greek yogurt
+- Salt and black pepper to taste`,
+
+  instructions: `1. Combine olive oil and garlic in sauté pan.
+2. Heat gently until garlic begins to bubble.
+3. Lower heat and remove from heat before garlic browns.
+- Remember carryover cooking.
+
+4. In food processor combine garlic, garlic oil, toasted walnuts, and lemon zest.
+5. Pulse until coarse and aromatic.
+
+6. Add lemon juice, turmeric, cumin, and white miso.
+7. Process until smooth paste forms.
+
+8. Transfer mixture to bowl and fold in Greek yogurt.
+9. Season with salt and black pepper to taste.
+10. Label and date before storing.`,
+
+  notes: `Rich walnut-forward spread with warm spice and balanced acidity.
+Excellent for crostini, roasted vegetables, grain bowls, lamb, or composed mezze applications.`
+
+}
+,{
+  id: 41,
+  name: "Miso-Honey Chili Aioli",
+  category: "Sauce",
+  tags: ["GF", "Cold", "Sauce"],
+  ingredients: `- 2 cups Kewpie mayo
+- 2 Tbsp white miso paste
+- 1 1/2 Tbsp honey
+- 2 tsp rice vinegar
+- 1 tsp toasted sesame oil
+- 1/2–1 tsp gochujang
+- 1/2 tsp soy sauce
+- Dash yuzu juice`,
+
+  instructions: `1. Combine all ingredients in mixing bowl.
+2. Whisk thoroughly until smooth and fully incorporated.
+3. Taste and adjust heat, acidity, and sweetness as needed.
+4. Label and date before storing.`,
+
+  notes: `Yield: approx. 1 quart.
+
+Balanced aioli with sweetness from honey, umami from white miso, and gentle chili heat from gochujang.
+Excellent with crispy tofu, sandwiches, roasted vegetables, fries, and grain bowls.`
+
+}
+,{
+  id: 42,
+  name: "Cauliflower Alfredo Sauce",
+  category: "Sauce",
+  tags: ["GF", "Vegetarian", "Sauce"],
+  ingredients: `- 1/4 cup extra virgin olive oil, divided
+- 4 garlic cloves, smashed
+- 2 cups onion, chopped
+- 8 cups cauliflower florets and stems
+- 2 2/3 cups water
+- 1 tsp kosher salt`,
+
+  instructions: `1. Heat 3 Tbsp olive oil in large sauce pot over medium heat.
+2. Add 1 smashed garlic clove and cook 1–2 minutes until softened but not browned.
+3. Add onion and cook 5–6 minutes until soft and fragrant.
+4. Add cauliflower, water, and kosher salt.
+5. Bring to simmer, cover, and cook 12–15 minutes until cauliflower is completely tender and beginning to fall apart.
+6. Remove from heat and cool slightly.
+7. Transfer mixture to blender in batches if necessary and blend completely smooth.
+8. Add remaining olive oil and blend briefly to finish.
+9. Adjust consistency with hot water, stock, milk, or pasta water as needed.
+10. Taste and adjust seasoning before service.`,
+
+  notes: `Yield: approx. 4 cups.
+
+Finish as needed with black pepper, lemon juice, parmesan, or chili flakes depending on application.
+
+Excellent as lighter Alfredo alternative for pasta, roasted vegetables, grain bowls, or seafood applications.`
+
+}
+,{
+  id: 43,
+  name: "Egg Salad",
+  category: "Pantry",
+  tags: ["Cold", "Sandwich", "Prep"],
+  ingredients: `- 24 hard boiled eggs
+- 2 Tbsp Dijon mustard
+- 1 cup mayo
+- 1 Tbsp chives, small cut
+- 1 1/2 tsp White Magic seasoning`,
+
+  instructions: `1. Chop hard boiled eggs to desired consistency.
+2. Combine eggs, Dijon mustard, mayo, chives, and White Magic seasoning in mixing bowl.
+3. Fold ingredients together gently until evenly combined.
+4. Have chef taste for seasoning and consistency.
+5. Portion with #10 blue scoop onto 2 slices Wonder bread for service.`,
+
+  notes: `Yield: approx. 10 sandwiches using #10 (2 oz) blue scoop.
+
+Keep properly chilled during service.`
+
+}
+,{
+  id: 44,
+  name: "Pimento Cheese",
+  category: "Pantry",
+  tags: ["Cold", "Spread", "Vegetarian"],
+  ingredients: `- 1 lb shredded cheddar
+- 4 oz cream cheese, room temperature
+- 1/2 cup mayo
+- 1/2 tsp cayenne pepper
+- 1 cup roasted red peppers, diced
+- Salt and black pepper to taste`,
+
+  instructions: `1. Combine shredded cheddar, cream cheese, mayo, cayenne pepper, and roasted red peppers in mixing bowl.
+2. Fold ingredients together until evenly combined.
+3. Season with salt and black pepper to taste.
+4. Have chef taste for quality and consistency.
+5. Label and date before storing.`,
+
+  notes: `Yield: approx. 2 quarts / 64 oz.
+
+Food Cost: $7.96 total batch.
+Approx. $0.12 per ounce.
+
+Excellent for sandwiches, crackers, burgers, or vegetable platters.`
+
+}
+,{
+  id: 45,
+  name: "Potato Pavé",
+  category: "Banquet",
+  tags: ["Potato", "Side", "Batch Prep", "Vegetarian"],
+  ingredients: `- 10 lb russet potatoes
+- 2 1/2 lb unsalted butter, melted
+- 2 1/2 Tbsp kosher salt
+- 1 1/2 tsp white pepper`,
+
+  instructions: `1. Prep the pan:
+- Line 2" hotel pan with parchment, allowing overhang on long sides.
+- Lightly brush parchment with butter.
+
+2. Slice potatoes:
+- Using mandoline, slice potatoes to 1/16" thickness.
+- Keep slices stacked neatly.
+- Do not rinse potatoes.
+
+3. Season potatoes:
+- Toss gently with melted butter, reserving about 1/2 cup.
+- Add kosher salt and white pepper.
+
+4. Build layers:
+- Lay potato slices tightly, overlapping slightly.
+- Press gently every few layers.
+- Keep layers straight for clean slicing.
+
+5. Finish:
+- Brush remaining butter over top.
+
+6. Bake:
+- Cover tightly with parchment and foil.
+- Bake at 325°F for 90–105 minutes.
+
+7. Test doneness:
+- Knife should slide through with zero resistance.
+- Do not brown at this stage.
+
+8. Press:
+- While hot, place parchment and another pan directly on top.
+- Add 10–15 lb weight.
+- Cool 30 minutes at room temperature.
+- Refrigerate overnight minimum 8 hours.
+
+9. Portion and crisp:
+- Cut into desired portions.
+- Place on parchment-lined tray.
+- Brush lightly with butter.
+- Roast at 425°F convection for 15–20 minutes, flipping once.`,
+
+  notes: `Yield: approx. 28 portions (24 service + buffer).
+
+Finished portion:
+Approx. 2" x 1.5" x 1.5"
+
+Food Cost: $9.76 batch
+Approx. $0.35 per serving.
+
+Chef Notes:
+Do not rinse potatoes — starch is critical for lamination.
+Proper pressing overnight is essential for clean cuts and structure.`
+
+}
+,{
+  id: 46,
+  name: "Chocolate Mousse",
+  category: "Dessert",
+  tags: ["Dessert", "Chocolate", "Banquet"],
+  ingredients: `- 3 cups heavy cream
+- 6 egg yolks
+- 1/3 cup honey
+- 1 Tbsp Grand Marnier
+- 10 oz milk chocolate
+- 4 oz dark chocolate`,
+
+  instructions: `1. Whip heavy cream to soft peaks and reserve chilled.
+
+2. Whip egg yolks to ribbon stage.
+
+3. Heat honey until just boiling.
+- Slowly whip hot honey into egg yolks.
+- Continue whipping until mixture is fluffy and no longer warm.
+- Stir in Grand Marnier.
+
+4. Melt milk chocolate and dark chocolate together over double boiler until smooth.
+
+5. Quickly fold warm chocolate mixture into egg yolk mixture.
+
+6. Fold whipped cream gently into chocolate base until fully incorporated.
+
+7. Portion and chill before service.`,
+
+  notes: `Yield: approx. 8 cups.
+
+Mother's Day Scaled Batch:
+- 7 1/2 cups heavy cream
+- 15 egg yolks
+- ~2/3 cup honey (5 1/3 oz)
+- 2 1/2 Tbsp Grand Marnier
+- 25 oz milk chocolate
+- 10 oz dark chocolate
+
+Chef Notes:
+Work quickly when folding warm chocolate into yolks to prevent seizing.
+Do not overwhip cream — soft peaks only for proper mousse texture.`
+
+}
+,{
+  id: 47,
+  name: "White Chocolate Cranberry Cookies",
+  category: "Dessert",
+  tags: ["Dessert", "Cookie", "Batch Prep"],
+  ingredients: `- 3 cups butter, softened
+- 3 cups white sugar
+- 3 cups brown sugar
+- 6 eggs
+- 3 Tbsp vanilla extract
+- 10 1/2 cups all-purpose flour
+- 3 tsp baking soda
+- 3 tsp salt
+- 3 cups white chocolate chips
+- 3 cups dried cranberries`,
+
+  instructions: `1. Cream butter, white sugar, and brown sugar until light and fluffy.
+
+2. Add eggs and vanilla extract.
+- Mix until fully combined.
+
+3. In separate bowl whisk together flour, baking soda, and salt.
+
+4. Add dry ingredients to wet ingredients.
+- Mix until just combined.
+
+5. Fold in white chocolate chips and dried cranberries.
+
+6. Scoop into 1.5 oz portions using #40 scoop.
+- Chill 20–30 minutes for best shape and spread control.
+
+7. Bake at 350°F for 10–12 minutes until lightly golden around edges.
+
+8. Cool before storage or service.`,
+
+  notes: `Yield: approx. 90 cookies at 1.5 oz each.
+
+Total dough yield:
+Approx. 135 oz / 8.4 lb dough.
+
+Chef Notes:
+Do not overmix once flour is added.
+Chilling dough improves shape, texture, and even baking.`
+
+}
+,{
+  id: 48,
+  name: "Coconut Nest Cookies",
+  category: "Dessert",
+  tags: ["Dessert", "Cookie", "Easter"],
+  ingredients: `- 90 candy coated chocolate eggs
+- 2/3 cup all-purpose flour
+- 5 1/2 cups sweetened coconut flakes
+- 14 oz sweetened condensed milk
+- 1 tsp vanilla extract
+- Pinch salt`,
+
+  instructions: `1. Preheat oven to 350°F.
+
+2. In mixing bowl combine flour, coconut flakes, and salt.
+
+3. Add sweetened condensed milk and vanilla extract.
+- Mix thoroughly until fully combined.
+
+4. Divide mixture into 30 portions.
+
+5. With wet hands shape each portion into approximately 2" circle.
+- Press thumb into center to create nest shape.
+
+6. Place on parchment-lined sheet tray.
+
+7. Bake 10–12 minutes until lightly browned.
+
+8. Cool briefly on tray.
+- While still soft, reshape indent if needed.
+
+9. Cool completely.
+
+10. Place 3 candy coated chocolate eggs into each cookie before service.`,
+
+  notes: `Yield: approx. 30 cookies.
+
+Chef Notes:
+Wet hands make shaping easier and prevent sticking.
+Reshaping while warm gives cleaner nest appearance.`
+
+}
+,{
+  id: 49,
+  name: "Gingerbread Cookies",
+  category: "Dessert",
+  tags: ["Dessert", "Cookie", "Holiday"],
+  ingredients: `- 6 lb flour
+- 2 Tbsp baking soda
+- 1 Tbsp salt
+- 6 Tbsp ground ginger
+- 4 Tbsp cinnamon
+- 1 Tbsp cloves
+- 2 1/4 lb butter, softened
+- 4 cups brown sugar
+- 3 cups molasses
+- 6 eggs`,
+
+  instructions: `1. Cream butter and brown sugar until light and fluffy.
+
+2. Add molasses and eggs.
+- Mix until fully incorporated.
+
+3. In separate bowl whisk together flour, baking soda, salt, ginger, cinnamon, and cloves.
+
+4. Add dry ingredients to wet ingredients.
+- Mix until dough forms.
+
+5. Chill dough thoroughly before rolling.
+
+6. Roll dough to 1/4" thickness.
+
+7. Cut with gingerbread cutter shapes.
+
+8. Bake at 350°F for 10–12 minutes until edges are firm.
+
+9. Cool completely before decorating or storing.`,
+
+  notes: `Yield: approx. 48 large cookies.
+
+Can be baked 2–3 days ahead.
+Store airtight after cooling.
+
+Chef Notes:
+Do not overbake — centers should remain slightly soft for best texture.`
+
+}
+,{
+  id: 50,
+  name: "Brown Butter Mini M&M Cookies",
+  category: "Dessert",
+  tags: ["Dessert", "Cookie", "Batch Prep"],
+  ingredients: `- 3 cups butter
+- 3 cups brown sugar
+- 1 1/2 cups white sugar
+- 6 eggs
+- 2 Tbsp vanilla extract
+- 8 1/4 cups flour
+- 3 tsp baking soda
+- 3 tsp salt
+- 4 1/2 cups mini M&Ms`,
+
+  instructions: `1. Brown the butter:
+- Melt butter over medium heat.
+- Continue cooking until milk solids are golden brown and butter smells nutty.
+- Chill until cooled and semi-solid before using.
+
+2. Cream:
+- Mix browned butter with brown sugar and white sugar.
+- Add eggs one at a time.
+- Add vanilla extract.
+
+3. Dry mix:
+- Whisk together flour, baking soda, and salt.
+
+4. Add dry ingredients to wet ingredients.
+- Mix until just combined.
+
+5. Fold in mini M&Ms.
+
+6. Chill dough 30–45 minutes for thicker cookies.
+
+7. Portion dough:
+- 2 oz for large cookies
+- 1.5 oz for buffet size
+
+8. Bake at 350°F for 10–12 minutes.
+- Pull with slightly underdone centers.
+
+9. Cool before storage or service.`,
+
+  notes: `Yield:
+- Approx. 84 cookies at 2 oz
+- Approx. 120 cookies at 1.5 oz
+
+Chef Notes:
+Cooling browned butter before mixing is critical for proper cookie structure.
+Do not overbake — centers should remain slightly soft.`
+
+}
+,{
+  id: 51,
+  name: "Spinach & Artichoke Dip",
+  category: "Pantry",
+  tags: ["Appetizer", "Vegetarian", "Hot Dip"],
+
+  ingredients: `- 2 lb spinach, fresh or frozen, cooked and squeezed dry (raw equivalent)
+- 1 1/2 qt artichoke hearts, drained and chopped (approx. 3 lb)
+- 3 lb cream cheese, softened
+- 1 qt sour cream
+- 2 cups Kewpie mayo
+- 1/4 cup garlic purée
+- 1 cup shallots, finely diced
+- 1 1/2 lb mozzarella, shredded
+- 1 lb Parmesan, grated
+- 1 cup white wine
+- 1/4 cup lemon juice
+- 1 Tbsp crushed red pepper
+- Salt and black pepper to taste`,
+
+  instructions: `1. Prepare spinach:
+- Cook spinach until wilted.
+- Drain thoroughly and squeeze out as much moisture as possible.
+- Rough chop and reserve.
+
+2. Build aromatic base:
+- Sweat shallots and garlic purée in a small amount of oil over medium-low heat until softened without browning.
+- Deglaze with white wine and reduce by half.
+
+3. Build cheese base:
+- Reduce heat to low.
+- Add softened cream cheese, sour cream, and Kewpie mayo.
+- Stir until smooth and fully incorporated.
+- Avoid scorching or boiling.
+
+4. Incorporate vegetables:
+- Fold in drained spinach and chopped artichoke hearts.
+- Mix thoroughly.
+
+5. Add cheeses:
+- Fold in mozzarella and Parmesan.
+- Stir gently until melted and evenly incorporated.
+
+6. Finish seasoning:
+- Add lemon juice and crushed red pepper.
+- Season with salt and black pepper.
+- Have chef taste for quality.
+
+7. Service:
+- Transfer to appropriate baking or service pans.
+- Reheat to 165°F for hot service.
+- Hold at 135°F or above.
+- Cool rapidly and refrigerate promptly if preparing ahead.`,
+
+  notes: `Yield: Half batch. Measure finished volume.
+
+Chef Notes:
+Spinach must be thoroughly squeezed dry to prevent a watery dip.
+
+Keep heat gentle while incorporating dairy to prevent separation.
+
+For banquet service, prepare ahead, chill rapidly, and reheat in shallow pans.
+
+Allergens: Dairy and egg. Verify individual product labels.`
+}
+,{
+  id: 52,
+  name: "Apple Cider-Dijon Vinaigrette",
+  category: "Sauce",
+  tags: ["Vinaigrette", "Dressing", "Vegetarian", "Gluten Free"],
+
+  ingredients: `- 3 cups + 2 Tbsp apple cider vinegar
+- 8 cups neutral oil (canola or grapeseed)
+- 3/4 cup + 2 tsp Dijon mustard
+- 6 Tbsp + 1 tsp honey
+- 3/4 cup + 2 tsp shallots, finely minced
+- 2 Tbsp + 1 tsp kosher salt, or to taste
+- 1 Tbsp + 1/2 tsp freshly cracked black pepper
+- 1 Tbsp + 1/2 tsp fresh thyme, finely chopped`,
+
+  instructions: `1. Build vinaigrette base:
+- Combine apple cider vinegar, Dijon mustard, honey, shallots, salt, black pepper, and fresh thyme in a blender.
+
+2. Blend:
+- Blend until shallots are finely incorporated and mixture is smooth.
+
+3. Emulsify:
+- With blender running on low speed, slowly drizzle in neutral oil.
+- Continue blending until a stable emulsion forms.
+- Work in batches if necessary.
+
+4. Adjust seasoning:
+- Taste and adjust salt and pepper.
+- Vinaigrette should be noticeably acidic with a subtle sweetness.
+
+5. Finish:
+- Check finished volume and adjust to 1 gallon while maintaining flavor balance.
+- Transfer to labeled containers.
+
+6. Storage:
+- Refrigerate until service.
+- Shake or whisk before each use if separation occurs.`,
+
+  notes: `Yield: Approximately 1 gallon (128 fl oz).
+
+Chef Notes:
+Maintain a slow, steady stream of oil during blending to develop a stable emulsion.
+
+The finished vinaigrette should be bright and acidic, with Dijon providing body and honey balancing the sharpness.
+
+Verify Dijon mustard is gluten-free before serving to guests with celiac disease.
+
+Keep refrigerated at 41°F or below.`
+},{
+  id: 53,
+  name: "Pistachio Pistou",
+  category: "Sauce",
+  tags: ["Sauce", "Pistachio", "Vegan", "Gluten Free"],
+
+  ingredients: `- 1 1/2 cups pistachios
+- 2 Tbsp sunflower oil
+- 6 Tbsp sherry vinegar
+- 6 Tbsp apple cider vinegar
+- 4 Tbsp shallots, finely chopped
+- 2 tsp garlic, minced
+- 2 tsp agave syrup
+- 1 Tbsp kosher salt
+- 1/4 tsp freshly ground black pepper
+- 1 1/2 cups olive oil`,
+
+  instructions: `1. Toast pistachios:
+- Combine pistachios and sunflower oil in a small skillet over medium heat.
+- Toast, stirring frequently, until nuts are fragrant and golden brown, approximately 3 minutes.
+- Remove from heat.
+
+2. Build pistou base:
+- Transfer toasted pistachios to a food processor.
+- Add sherry vinegar, apple cider vinegar, shallots, garlic, agave syrup, kosher salt, and black pepper.
+
+3. Process:
+- Pulse for 5–8 seconds to begin breaking down pistachios.
+
+4. Emulsify:
+- With food processor running, slowly drizzle olive oil through feed tube.
+- Continue processing until mixture resembles a coarse pesto.
+
+5. Finish:
+- Taste and adjust seasoning.
+- Pistou should have a slightly coarse texture with visible pieces of pistachio.
+
+6. Storage:
+- Transfer to a clean, labeled container.
+- Refrigerate at 41°F or below.
+- Stir before service.`,
+
+  notes: `Yield: Approximately 1 quart, depending on final texture.
+
+Chef Notes:
+Do not overprocess. Maintain a slightly coarse texture rather than a completely smooth purée.
+
+Toast pistachios gently to develop their natural oils and nutty flavor without burning.
+
+Allergens: Contains tree nuts (pistachios).
+
+Verify individual ingredient labels for gluten-free compliance.`
+}
+,{
+  id: 54,
+  name: "Cherry Pepper Relish",
+  category: "Sauce",
+  tags: ["Relish", "Condiment", "Vegetarian", "Gluten Free"],
+
+  ingredients: `- 2 cups hot cherry peppers, drained and roughly chopped
+- 4 Tbsp shallots, finely minced
+- 2 Tbsp red wine vinegar
+- 2 Tbsp extra virgin olive oil
+- 2 tsp honey
+- 1/2 tsp dried oregano
+- Freshly cracked black pepper, to taste`,
+
+  instructions: `1. Prepare peppers:
+- Drain hot cherry peppers thoroughly.
+- Roughly chop into 1/4-inch pieces.
+
+2. Combine ingredients:
+- Place chopped cherry peppers and minced shallots in a mixing bowl.
+- Add red wine vinegar, extra virgin olive oil, honey, dried oregano, and freshly cracked black pepper.
+
+3. Mix:
+- Stir thoroughly until all ingredients are evenly incorporated.
+
+4. Marinate:
+- Cover and refrigerate for at least 30 minutes to allow flavors to develop.
+
+5. Finish:
+- Taste and adjust seasoning as needed.
+- Drain excess liquid before service.
+
+6. Storage:
+- Transfer to a clean, labeled container.
+- Refrigerate at 41°F or below.`,
+
+  notes: `Yield: Approximately 3 cups.
+
+Chef Notes:
+Maintain a coarse 1/4-inch dice for texture.
+
+Drain excess liquid before using on sandwiches to prevent soggy bread.
+
+Allow at least 30 minutes of refrigerated resting time before service.
+
+Verify individual ingredient labels for gluten-free compliance.`
+},{
+  id: 55,
+  name: "Comeback Sauce",
+  category: "Sauce",
+  tags: ["Sauce", "Condiment", "Dipping Sauce"],
+
+  ingredients: `- 1/4 cup honey
+- 2 Tbsp yellow mustard
+- 1/4 cup BBQ sauce
+- 2 Tbsp lemon juice
+- 1/2 cup mayonnaise
+- 1 Tbsp old-fashioned whole grain mustard`,
+
+  instructions: `1. Combine ingredients:
+- Place honey, yellow mustard, BBQ sauce, lemon juice, mayonnaise, and whole grain mustard in a mixing bowl.
+
+2. Mix:
+- Whisk thoroughly until smooth and all ingredients are fully incorporated.
+
+3. Finish:
+- Taste and adjust seasoning as needed.
+
+4. Storage:
+- Transfer to a clean, labeled container.
+- Refrigerate at 41°F or below.
+- Stir before service.`,
+
+  notes: `Yield: Approximately 1 1/4 cups.
+
+Chef Notes:
+Whisk thoroughly to evenly distribute the whole grain mustard.
+
+Excellent as a dipping sauce for fried foods, sandwiches, and chicken.
+
+Allergens: Contains egg from mayonnaise. Verify BBQ sauce and mustard labels for additional allergens.`
+}
+,{
+  id: 56,
+  name: "Chef's Smash Burger Sauce",
+  category: "Sauce",
+  tags: ["Sauce", "Condiment", "Burger", "Sandwich"],
+
+  ingredients: `- 2 cups mayonnaise
+- 1/2 cup sweet pickle relish
+- 1/4 cup yellow mustard
+- 2 Tbsp ketchup
+- 2 tsp smoked paprika
+- 1 tsp garlic powder
+- 1 tsp onion powder
+- 1/2 tsp kosher salt`,
+
+  instructions: `1. Combine ingredients:
+- Place mayonnaise, sweet pickle relish, yellow mustard, and ketchup in a mixing bowl.
+
+2. Add seasonings:
+- Add smoked paprika, garlic powder, onion powder, and kosher salt.
+
+3. Mix:
+- Whisk thoroughly until all ingredients are evenly incorporated.
+
+4. Finish:
+- Taste and adjust seasoning as needed.
+
+5. Storage:
+- Transfer to a clean, labeled container.
+- Refrigerate at 41°F or below.
+- Stir before service.`,
+
+  notes: `Yield: Approximately 3 cups.
+
+Chef Notes:
+Allow sauce to rest under refrigeration for at least 30 minutes before service to develop flavor.
+
+Maintain visible pieces of sweet pickle relish for texture.
+
+Ideal for smash burgers, sandwiches, and dipping sauce.
+
+Allergens: Contains egg from mayonnaise. Verify individual product labels for additional allergens.`
+}
+,{
+  id: 57,
+  name: "Honeycrisp Apple Brown Butter Cake",
+  category: "Dessert",
+  tags: ["Dessert", "Cake", "Apple", "Fall", "Cast Iron"],
+
+  ingredients: `HONEYCRISP APPLE TOPPING
+- 3 medium Honeycrisp apples (approx. 1 1/2 lb)
+- 3 oz unsalted butter
+- 3 oz light brown sugar
+- 1 Tbsp lemon juice
+- 1/2 tsp ground cinnamon
+- 1/4 tsp kosher salt
+- 1 tsp vanilla extract
+
+BROWN BUTTER CAKE BATTER
+- 8 oz unsalted butter
+- 7 oz granulated sugar
+- 3 oz light brown sugar
+- 3 large eggs
+- 10 oz all-purpose flour
+- 2 tsp baking powder
+- 1/4 tsp baking soda
+- 1/2 tsp kosher salt
+- 6 fl oz whole milk
+- 4 oz sour cream
+- 2 tsp vanilla extract`,
+
+  instructions: `1. PREPARE HONEYCRISP APPLE TOPPING:
+- Peel and core Honeycrisp apples.
+- Slice into approximately 1/4-inch wedges.
+- Melt 3 oz butter in a large sauté pan over medium-high heat.
+- Add apples and sauté for 2–3 minutes.
+- Add brown sugar, cinnamon, and salt.
+- Continue cooking another 2–3 minutes until apples begin to caramelize.
+- Add lemon juice and vanilla extract.
+- Remove from heat.
+- Apples should remain slightly firm, as they will finish cooking in the cakes.
+- Reserve caramelized liquid from the pan.
+
+2. BROWN THE BUTTER:
+- Place 8 oz butter in a saucepan over medium heat.
+- Cook until milk solids turn golden brown and develop a nutty aroma.
+- Remove from heat.
+- Transfer to a bowl and cool until warm but no longer hot.
+- Retain all browned milk solids for the cake batter.
+
+3. PREPARE DRY INGREDIENTS:
+- Whisk together flour, baking powder, baking soda, and kosher salt.
+- Set aside.
+
+4. PREPARE WET INGREDIENTS:
+- Whisk together whole milk, sour cream, and vanilla extract until smooth.
+
+5. MIX CAKE BATTER:
+- Combine cooled brown butter, granulated sugar, and brown sugar in a mixing bowl.
+- Beat until thoroughly combined.
+- Add eggs one at a time, mixing between additions.
+- Add dry ingredients in three additions, alternating with the milk mixture.
+- Mix just until incorporated.
+- Do not overmix.
+- Finished batter should be thick but spreadable.
+
+6. PREPARE CAST IRON SKILLETS:
+- Lightly butter six 6.5-inch cast iron skillets.
+- Divide cake batter evenly between skillets.
+- Spread batter evenly.
+
+7. ASSEMBLE CAKES:
+- Arrange caramelized Honeycrisp apple slices in a circular, overlapping pattern across each cake.
+- Lightly press apples into batter.
+- Spoon a small amount of reserved apple caramel over the apples.
+- Do not overload cakes with apples.
+
+8. BAKE:
+- Preheat convection oven to 350°F, low fan.
+- Bake approximately 25–30 minutes.
+- Begin checking at 22 minutes.
+- Cakes are finished when tops are golden brown and a cake tester inserted into the center comes out clean.
+- Target internal temperature: approximately 200–205°F.
+- Remove promptly when finished to prevent overbaking from residual cast iron heat.
+
+9. COOL AND REMOVE:
+- Allow cakes to cool in skillets for 10 minutes.
+- Run a thin offset spatula around edges.
+- Carefully remove cakes, keeping apple topping facing upward.
+- Transfer to parchment-lined sheet trays.
+- Cool completely.
+
+10. STORAGE:
+- Cover and refrigerate after cooling.
+- For service, gently rewarm as needed.`,
+
+  notes: `Yield: 6 individual cakes in 6.5-inch cast iron skillets.
+
+Chef Notes:
+Keep all toasted milk solids when browning butter for maximum flavor.
+
+Apples should be slightly firm after caramelizing. They will finish cooking during baking.
+
+Do not overmix batter once flour is added.
+
+Distribute batter evenly between six skillets. Verify portion weight against actual finished batter yield.
+
+Cast iron retains heat. Remove cakes promptly once baked.
+
+Shelf Life:
+Best served within 2–3 days when properly refrigerated.
+
+Production:
+For quantities exceeding six cakes, clean and reuse cast iron skillets for subsequent batches.
+
+Allergens:
+Contains wheat, dairy, and eggs.`
+}
+,{
+  id: 58,
+  name: "Maple Bourbon Caramel",
+  category: "Sauce",
+  tags: ["Dessert", "Caramel", "Maple", "Bourbon"],
+
+  ingredients: `- 6 oz granulated sugar
+- 2 fl oz water
+- 8 fl oz heavy cream
+- 4 fl oz pure maple syrup
+- 2 oz unsalted butter
+- 1 1/2 fl oz bourbon
+- 1/4 tsp kosher salt
+- 1/2 tsp vanilla extract`,
+
+  instructions: `1. PREPARE CARAMEL BASE:
+- Combine granulated sugar and water in a heavy-bottomed saucepan.
+- Cook over medium-high heat until sugar reaches a deep amber color.
+- Avoid stirring once sugar begins boiling.
+
+2. ADD CREAM:
+- Warm heavy cream separately.
+- Carefully whisk warm cream into caramel in small additions.
+- Mixture will bubble vigorously.
+- Continue whisking until smooth.
+
+3. ADD MAPLE SYRUP:
+- Add pure maple syrup.
+- Return mixture to a gentle simmer.
+
+4. ADD BOURBON:
+- Stir in bourbon.
+- Simmer gently for 2–3 minutes.
+
+5. FINISH CARAMEL:
+- Remove saucepan from heat.
+- Whisk in unsalted butter, kosher salt, and vanilla extract.
+- Continue whisking until butter is fully incorporated.
+
+6. BLEND:
+- Using an immersion blender, blend briefly until caramel is smooth and emulsified.
+- Keep blender head fully submerged to avoid incorporating excess air.
+
+7. SERVICE:
+- Hold warm for immediate service.
+- Stir before serving.
+
+8. STORAGE:
+- Transfer to a clean, labeled container.
+- Cool rapidly and refrigerate at 41°F or below.
+- Reheat gently over low heat, stirring frequently.`,
+
+  notes: `Yield: Approximately 2 cups.
+
+Chef Notes:
+Cook sugar to a deep amber for a rich caramel flavor without bitterness.
+
+Warm heavy cream before adding to prevent excessive seizing.
+
+Add cream slowly, as hot caramel will bubble vigorously.
+
+Do not over-reduce after adding maple syrup and bourbon.
+
+Simmering bourbon for 2–3 minutes does not eliminate all alcohol.
+
+Excellent accompaniment for Honeycrisp Apple Brown Butter Cake.
+
+Allergens: Contains dairy.`
+}
+,{
+  id: 59,
+  name: "Chicken Parmesan Breading",
+  category: "Pantry",
+  tags: ["Breading", "Chicken", "Gluten Free", "Italian"],
+
+  ingredients: `- 8 oz gluten-free panko breadcrumbs (1 box)
+- 2 oz grated Parmesan cheese
+- 1 Tbsp dried oregano`,
+
+  instructions: `1. Add the entire 8 oz box of gluten-free panko breadcrumbs to the Robot Coupe.
+
+2. Add 2 oz grated Parmesan cheese.
+
+3. Add 1 Tbsp dried oregano.
+
+4. Pulse until breadcrumbs, Parmesan, and oregano are evenly incorporated and reduced to a fine, uniform crumb.
+
+5. Do not overprocess into a powder.
+
+6. Transfer breading to a clean, labeled container.
+
+7. Keep dry and covered until ready for breading chicken.`,
+
+  notes: `Yield: Approximately 10 oz breading.
+
+Ratio:
+8 parts gluten-free panko
+2 parts grated Parmesan
+1 Tbsp dried oregano
+
+Chef Notes:
+Use dried oregano, not fresh.
+
+Do not add salt. Parmesan provides seasoning.
+
+Do not overprocess in the Robot Coupe.
+
+For gluten-free service, verify all ingredient labels and use dedicated gluten-free breading equipment.
+
+Allergens: Contains dairy.`
+}
+,{
+  id: 60,
+  name: "Walleye Milanese Breading",
+  category: "Pantry",
+  tags: ["Breading", "Seafood", "Gluten Free", "Italian"],
+
+  ingredients: `- 8 oz gluten-free panko breadcrumbs (1 box)
+- 1 1/2 oz grated Parmesan cheese
+- 2 Tbsp dried parsley
+- 1 tsp finely grated lemon zest
+- 1/2 tsp freshly ground black pepper`,
+
+  instructions: `1. Place the entire 8 oz box of gluten-free panko breadcrumbs into the Robot Coupe.
+
+2. Add grated Parmesan cheese, dried parsley, lemon zest, and black pepper.
+
+3. Process until all ingredients are thoroughly blended and the breadcrumbs have a consistent texture.
+
+4. Transfer breading to a clean, labeled container.
+
+5. Keep refrigerated and covered until service.
+
+6. For breading walleye:
+- Dredge fish in seasoned gluten-free flour.
+- Dip into beaten eggs.
+- Coat evenly with Milanese breading.
+- Gently press breading onto fish to ensure proper adhesion.
+
+7. Cook until golden brown and fish reaches the required internal temperature.`,
+
+  notes: `Yield: Approximately 10 oz breading.
+
+Chef Notes:
+Use dried parsley rather than fresh to maintain consistency in the breading.
+
+Lemon zest adds brightness without making the breading overly acidic.
+
+Do not add salt to the breading. Season the fish and flour separately.
+
+Use dedicated gluten-free equipment and utensils to prevent cross-contact.
+
+Because fresh lemon zest introduces moisture, prepare in small batches and keep refrigerated.
+
+Allergens: Contains dairy, fish and egg when used in the complete breading procedure.`
+}
+,{
+  id: 61,
+  name: "Beef Bolognese",
+  category: "Sauce",
+  tags: ["Pasta", "Italian", "Beef", "Batch Prep"],
+
+  ingredients: `- 10 lb ground beef
+- 2 Tbsp fennel seeds
+- 1/2 cup garlic, minced
+- 1 1/2 cups shallots, finely diced
+- 1 #6 can diced tomatoes
+- 1 #6 can crushed tomatoes
+- 2 cans (28 oz each) Pomodoro sauce
+- 4 bay leaves
+- Kosher salt, to taste
+- Freshly ground black pepper, to taste`,
+
+  instructions: `1. BROWN THE GROUND BEEF:
+- Heat a large heavy-bottomed pot or tilt skillet over medium-high heat.
+- Add ground beef and cook until thoroughly browned.
+- Break beef apart while cooking to maintain a consistent texture.
+- Cook in batches if necessary to avoid overcrowding.
+- Ground beef must reach an internal temperature of 160°F.
+
+2. DRAIN THE BEEF:
+- Transfer cooked ground beef into a perforated hotel pan set over a solid hotel pan.
+- Allow excess fat to drain completely.
+- Discard drained grease.
+- Reserve cooked beef.
+
+3. TOAST FENNEL SEEDS:
+- Return cooking pot to medium heat.
+- Add fennel seeds directly to the pot.
+- Toast for approximately 30–60 seconds, stirring frequently, until fragrant.
+- Do not burn the fennel seeds.
+
+4. ADD AROMATICS:
+- Add diced shallots and cook until softened, approximately 3–4 minutes.
+- Add minced garlic and cook an additional 1–2 minutes.
+- Stir frequently to prevent garlic from burning.
+
+5. BUILD TOMATO SAUCE:
+- Add 1 #6 can diced tomatoes.
+- Add 1 #6 can crushed tomatoes.
+- Add both 28 oz cans of Pomodoro sauce.
+- Stir thoroughly to combine.
+
+6. ADD BEEF AND BAY LEAVES:
+- Return drained ground beef to the tomato sauce.
+- Add 4 bay leaves.
+- Stir until beef is evenly distributed throughout the sauce.
+
+7. SIMMER:
+- Bring sauce to a gentle simmer.
+- Reduce heat to low.
+- Simmer uncovered for approximately 1 1/2–2 hours.
+- Stir frequently, scraping the bottom of the pot to prevent scorching.
+- Maintain a gentle simmer, not a rolling boil.
+
+8. FINISH:
+- Taste and season with kosher salt and black pepper.
+- Adjust consistency as needed.
+- Remove all bay leaves before service.
+
+9. STORAGE:
+- Transfer to shallow hotel pans for rapid cooling.
+- Cool from 135°F to 70°F within 2 hours and from 70°F to 41°F within an additional 4 hours.
+- Cover, label, date, and refrigerate at 41°F or below.
+- Reheat to 165°F for hot holding.`,
+
+  notes: `Yield: Large batch. Record actual finished yield.
+
+Chef Notes:
+Brown ground beef thoroughly before draining.
+
+Always drain cooked beef in a perforated hotel pan to remove excess grease.
+
+Toast fennel seeds before adding aromatics to develop their flavor.
+
+Do not burn garlic or fennel seeds.
+
+Maintain a gentle simmer to develop flavor and reduce the sauce.
+
+Stir frequently to prevent scorching.
+
+Remove all bay leaves before service.
+
+Allergens:
+Verify Pomodoro sauce ingredients for allergens and gluten-free compliance.`
+}
 ];
+
 
 export default function App() {
   const [recipes] = useState<Recipe[]>(sampleRecipes);
