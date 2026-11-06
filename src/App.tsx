@@ -12,7 +12,7 @@ type Recipe = {
 
 
 
-const sampleRecipes: Recipe[] = [
+const sampleRecipes = [
   {
     id: 1,
     name: "GF Lemon Chicken",
@@ -2246,7 +2246,7 @@ Salt and Pepper to taste
 Bright, herb-forward tzatziki with added depth from tahini and capers. Adjust acidity and consistency at finish.`
 },
 ,{
-  id: 32,
+  id: 1032,
   name: "Wasabi Cucumber Aioli",
   category: "Sauce",
   tags: ["Cold", "GF", "Sauce"],
@@ -2284,7 +2284,7 @@ Properly squeezing cucumber is critical to avoid a watery aioli.`
 
 }
 ,{
-  id: 33,
+  id: 1033,
   name: "Crispy Tofu Seasoning",
   category: "Pantry",
   tags: ["GF", "Seasoning", "Vegan"],
@@ -2305,7 +2305,7 @@ Balanced savory heat with slight sweetness for browning and flavor.`
 
 },
 {
-  id: 34,
+  id: 1034,
   name: "Crispy Tofu Breading Procedure",
   category: "Pantry",
   tags: ["GF", "Vegan", "Procedure"],
@@ -2343,7 +2343,7 @@ Do not oversaturate tofu in slurry or breading may fall off.`
 
 }
 ,{
-  id: 35,
+  id: 1035,
   name: "Cherry Tomato Salad Vinaigrette",
   category: "Sauce",
   tags: ["Cold", "GF", "Vinaigrette"],
@@ -2361,7 +2361,7 @@ Light sesame flavor with bright acidity from sherry vinegar.`
 
 }
 ,{
-  id: 36,
+  id: 1036,
   name: "Chili Lime Sauce",
   category: "Sauce",
   tags: ["GF", "Vegan", "Sauce"],
@@ -2381,7 +2381,7 @@ Adjust lime juice or sriracha as needed for balance.`
 
 }
 ,{
-  id: 37,
+  id: 1037,
   name: "Revised Chicken Meatball Mix",
   category: "Pantry",
   tags: ["GF", "Protein", "Batch Prep"],
@@ -2420,7 +2420,7 @@ Avoid overcooking — meatballs should remain juicy and tender.`
 
 }
 ,{
-  id: 38,
+  id: 1038,
   name: "Goma Tare",
   category: "Sauce",
   tags: ["GF", "Cold", "Sauce"],
@@ -2445,7 +2445,7 @@ Excellent for tofu, noodle bowls, roasted vegetables, and composed salads.`
 
 }
 ,{
-  id: 39,
+  id: 1039,
   name: "Citrus Tahini Yogurt",
   category: "Sauce",
   tags: ["GF", "Cold", "Sauce", "Vegetarian"],
@@ -2476,7 +2476,7 @@ Excellent with roasted vegetables, grilled chicken, crispy tofu, grain bowls, an
 
 }
 ,{
-  id: 40,
+  id: 1040,
   name: "Walnut Hummus",
   category: "Sauce",
   tags: ["Vegetarian", "Spread", "Cold"],
@@ -2510,7 +2510,7 @@ Excellent for crostini, roasted vegetables, grain bowls, lamb, or composed mezze
 
 }
 ,{
-  id: 41,
+  id: 1041,
   name: "Miso-Honey Chili Aioli",
   category: "Sauce",
   tags: ["GF", "Cold", "Sauce"],
@@ -2535,7 +2535,7 @@ Excellent with crispy tofu, sandwiches, roasted vegetables, fries, and grain bow
 
 }
 ,{
-  id: 42,
+  id: 1042,
   name: "Cauliflower Alfredo Sauce",
   category: "Sauce",
   tags: ["GF", "Vegetarian", "Sauce"],
@@ -2565,7 +2565,7 @@ Excellent as lighter Alfredo alternative for pasta, roasted vegetables, grain bo
 
 }
 ,{
-  id: 43,
+  id: 1043,
   name: "Egg Salad",
   category: "Pantry",
   tags: ["Cold", "Sandwich", "Prep"],
@@ -2587,7 +2587,7 @@ Keep properly chilled during service.`
 
 }
 ,{
-  id: 44,
+  id: 1044,
   name: "Pimento Cheese",
   category: "Pantry",
   tags: ["Cold", "Spread", "Vegetarian"],
@@ -2613,7 +2613,7 @@ Excellent for sandwiches, crackers, burgers, or vegetable platters.`
 
 }
 ,{
-  id: 45,
+  id: 1045,
   name: "Potato Pavé",
   category: "Banquet",
   tags: ["Potato", "Side", "Batch Prep", "Vegetarian"],
@@ -2677,7 +2677,7 @@ Proper pressing overnight is essential for clean cuts and structure.`
 
 }
 ,{
-  id: 46,
+  id: 1046,
   name: "Chocolate Mousse",
   category: "Dessert",
   tags: ["Dessert", "Chocolate", "Banquet"],
@@ -2721,7 +2721,7 @@ Do not overwhip cream — soft peaks only for proper mousse texture.`
 
 }
 ,{
-  id: 47,
+  id: 1047,
   name: "White Chocolate Cranberry Cookies",
   category: "Dessert",
   tags: ["Dessert", "Cookie", "Batch Prep"],
@@ -2766,7 +2766,7 @@ Chilling dough improves shape, texture, and even baking.`
 
 }
 ,{
-  id: 48,
+  id: 1048,
   name: "Coconut Nest Cookies",
   category: "Dessert",
   tags: ["Dessert", "Cookie", "Easter"],
@@ -2808,7 +2808,7 @@ Reshaping while warm gives cleaner nest appearance.`
 
 }
 ,{
-  id: 49,
+  id: 1049,
   name: "Gingerbread Cookies",
   category: "Dessert",
   tags: ["Dessert", "Cookie", "Holiday"],
@@ -2853,7 +2853,7 @@ Do not overbake — centers should remain slightly soft for best texture.`
 
 }
 ,{
-  id: 50,
+  id: 1050,
   name: "Brown Butter Mini M&M Cookies",
   category: "Dessert",
   tags: ["Dessert", "Cookie", "Batch Prep"],
@@ -2906,7 +2906,7 @@ Do not overbake — centers should remain slightly soft.`
 
 }
 ,{
-  id: 51,
+  id: 1051,
   name: "Spinach & Artichoke Dip",
   category: "Pantry",
   tags: ["Appetizer", "Vegetarian", "Hot Dip"],
@@ -2971,7 +2971,7 @@ For banquet service, prepare ahead, chill rapidly, and reheat in shallow pans.
 Allergens: Dairy and egg. Verify individual product labels.`
 }
 ,{
-  id: 52,
+  id: 1052,
   name: "Apple Cider-Dijon Vinaigrette",
   category: "Sauce",
   tags: ["Vinaigrette", "Dressing", "Vegetarian", "Gluten Free"],
@@ -3019,7 +3019,7 @@ Verify Dijon mustard is gluten-free before serving to guests with celiac disease
 
 Keep refrigerated at 41°F or below.`
 },{
-  id: 53,
+  id: 1053,
   name: "Pistachio Pistou",
   category: "Sauce",
   tags: ["Sauce", "Pistachio", "Vegan", "Gluten Free"],
@@ -3072,7 +3072,7 @@ Allergens: Contains tree nuts (pistachios).
 Verify individual ingredient labels for gluten-free compliance.`
 }
 ,{
-  id: 54,
+  id: 1054,
   name: "Cherry Pepper Relish",
   category: "Sauce",
   tags: ["Relish", "Condiment", "Vegetarian", "Gluten Free"],
@@ -3118,7 +3118,7 @@ Allow at least 30 minutes of refrigerated resting time before service.
 
 Verify individual ingredient labels for gluten-free compliance.`
 },{
-  id: 55,
+  id: 1055,
   name: "Comeback Sauce",
   category: "Sauce",
   tags: ["Sauce", "Condiment", "Dipping Sauce"],
@@ -3154,7 +3154,7 @@ Excellent as a dipping sauce for fried foods, sandwiches, and chicken.
 Allergens: Contains egg from mayonnaise. Verify BBQ sauce and mustard labels for additional allergens.`
 }
 ,{
-  id: 56,
+  id: 1056,
   name: "Chef's Smash Burger Sauce",
   category: "Sauce",
   tags: ["Sauce", "Condiment", "Burger", "Sandwich"],
@@ -3197,7 +3197,7 @@ Ideal for smash burgers, sandwiches, and dipping sauce.
 Allergens: Contains egg from mayonnaise. Verify individual product labels for additional allergens.`
 }
 ,{
-  id: 57,
+  id: 1057,
   name: "Honeycrisp Apple Brown Butter Cake",
   category: "Dessert",
   tags: ["Dessert", "Cake", "Apple", "Fall", "Cast Iron"],
@@ -3312,7 +3312,7 @@ Allergens:
 Contains wheat, dairy, and eggs.`
 }
 ,{
-  id: 58,
+  id: 1058,
   name: "Maple Bourbon Caramel",
   category: "Sauce",
   tags: ["Dessert", "Caramel", "Maple", "Bourbon"],
@@ -3381,7 +3381,7 @@ Excellent accompaniment for Honeycrisp Apple Brown Butter Cake.
 Allergens: Contains dairy.`
 }
 ,{
-  id: 59,
+  id: 1059,
   name: "Chicken Parmesan Breading",
   category: "Pantry",
   tags: ["Breading", "Chicken", "Gluten Free", "Italian"],
@@ -3423,7 +3423,7 @@ For gluten-free service, verify all ingredient labels and use dedicated gluten-f
 Allergens: Contains dairy.`
 }
 ,{
-  id: 60,
+  id: 1060,
   name: "Walleye Milanese Breading",
   category: "Pantry",
   tags: ["Breading", "Seafood", "Gluten Free", "Italian"],
@@ -3468,7 +3468,7 @@ Because fresh lemon zest introduces moisture, prepare in small batches and keep 
 Allergens: Contains dairy, fish and egg when used in the complete breading procedure.`
 }
 ,{
-  id: 61,
+  id: 1061,
   name: "Beef Bolognese",
   category: "Sauce",
   tags: ["Pasta", "Italian", "Beef", "Batch Prep"],
@@ -3560,8 +3560,11 @@ Verify Pomodoro sauce ingredients for allergens and gluten-free compliance.`
 ];
 
 
+
 export default function App() {
-  const [recipes] = useState<Recipe[]>(sampleRecipes);
+  const [recipes] = useState<Recipe[]>(
+  sampleRecipes.filter((recipe): recipe is Recipe => recipe !== undefined)
+);
   const [selectedFilter, setSelectedFilter] = useState<string | null>(null);
   const [search, setSearch] = useState("");
   const [selected, setSelected] = useState<Recipe | null>(null);
